@@ -1,0 +1,2036 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <title>advanced</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<style>
+  li {
+    margin-bottom: 100px
+  }
+
+  .nav a {
+    background: white;
+    color: #4a7db1;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none
+  }
+
+  .cont {
+    width: 90%;
+    margin: auto
+  }
+
+  body {
+    padding-left: 50px;
+    background: #4a7db1;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    word-break: break-word
+  }
+  .modify h1 a{color: white;text-decoration: none; }
+  .unvis {
+    visibility: hidden;
+  }
+</style>
+
+<body>
+
+
+
+
+<span id="up" class="unvis" style="cursor: pointer;transition:.5s;background:white;color:#4a7db1;border-radius:10px;padding:5px;position: fixed;right:10px;bottom: 10px;">UP</span>
+
+
+
+
+  <div  class="cont">
+
+    <div class="modify">
+      <h1><a href="#script">JAVASCRIPT</a></h1>
+      <h1><a href="#es6">ES6</a></h1>
+      <h1><a href="#oop">js oop</a></h1>
+    <h1><a href="#pug">Pug.JS</a></h1>
+    <h1><a href="#gulp">Gulp.JS</a></h1>
+    <h1><a href="#ultimate">Ultimate course</a></h1>
+    <h1><a href="#sass">Sass</a></h1>
+    <h1><a href="#github">Github</a></h1>
+    <h1><a href="#angular">Angular</a></h1>
+   <h1><a href="#army">Angular Army</a></h1>
+    </div>
+    <div class="nav">
+      <a href="#one">Mokdema</a>
+      <a href="#two">install bootstrap and ng-bootstrap</a>
+      <a href="#three">type script</a>
+      <a href="#four">binding</a>
+      <a href="#view">viewChild</a>
+      <a href="#five">directive</a>
+      <a href="#cudi">Custom Attribute Directives</a>
+      <a href="#six">[(ngModel)]</a>
+      <a href="#seven">ngContent ,, ngcontainer</a>
+      <a href="#eight">parent,child</a>
+      <a href="#nine">routing</a>
+      <a href="#ten">routing parameter</a>
+      <a href="#eleven">routing navigation</a>
+      <a href="#twelvee">life sicle hocks</a>
+      <a href="#thirteen">simple project</a>
+      <a href="#host">Host Listener</a>
+      <a href="#title">title</a>
+      <a href="#pipe">pipe</a>
+      <a href="#forms">forms</a>
+      <a href="#service">service</a>
+      <a href="#api">api</a>
+      <a href="#build">Build Production</a>
+      <a href="#fire">firebase project</a>
+
+    </div>
+    <div>
+      <h1 id="script">javascript</h1>
+      <p>- variables and conestant <br>
+        el variable t2dr t8yr kemto fe ai w2t <br>
+        el conestent kymto sapta lo 7awlt t8yrha hyzhrlk error
+      </p>
+      <p>-koa3ed esm el variables : mynf3sh tpd2 esm el variable be rkm , mynf3sh tst5dm be ai 3lama 8er dol $, _ ,
+        mynf3sh msafa fe esm el variable ,, t2dr tstkhdm tre2et el camel case</p>
+      <p>- js is a dynamic language y3ny lo mot8yer kymto number t23dr p3d shoia t5leh string </p>
+      <p> <mark>Data types</mark> </p>
+      <p>- fe no3en mn el data </p>
+      <p>- awel no3 el <mark>primitive values:</mark></p>
+      <img src="images/pvalues.PNG" alt="">
+      <p>- tany no3 el <mark>objects:</mark></p>
+      <img src="images/objects.PNG" alt="">
+      <p>-el data fe mnha <mark>mutable</mark> we dht2dr t8yr fe goz2 mn el kymapta3to zi el array we el object l2n el
+        array mslan pytkon mn mgmo3a mn el kym t2dr t8yr fe kema mnhom </p>
+      <p>-we fe <mark>immutable</mark> we mt2dr4 t8yr fegoz2 mn kymtha zi el number we el string</p>
+      <p>- <mark>undifined</mark> el kyma el default le ai variable ai variable mlo4 kyma kymto htkon undifined
+        <br>
+        <mark>null</mark> m3naha enta 7atet kyma null le variable
+      </p>
+      <p>- <mark>comments</mark> fe single line // >>>> we fe multi line /* */</p>
+
+      <p>- <mark>operators</mark> 3lamat el (+,*,-,/) dolesmhom operators</p>
+      <p>- <mark>operand</mark> dol el rkmen ly pt3ml 3lehom 3mlia 7sapia</p>
+
+      <p>- <mark>unary operators</mark> we dh pyakhod operand wa7ed zi <mark>typeof()</mark></p>
+      <p>- <mark>binary operators</mark> wee dh pyakhod etnen operand zi (+,-,/,*)</p>
+
+      <p>- <mark>arthimitec operators</mark> el mo3amlat el 7sapya (+,/,*,-)</p>
+      <p><mark>%</mark> de m3naha pa2y el2sma y3ny mslan 7 / 2 feha el wahed</p>
+      <p>- <mark>**</mark> el os zi mslan 2 ** 3 we dh la yons7 be est5damo 3a4an m4 md3om fe kol el motsf7at</p>
+      <p>- <mark>assignment operator</mark> = dh esmo mo3amel el mosawah ptstkhdmo 3a4an t7ot kema le variable</p>
+
+      <p>- <mark>increment ++</mark> ,,, <mark>decriment --</mark></p>
+      <p>- <mark>postfix</mark> x++ y3ny el kymaapl el zyada</p>
+      <p>- <mark>prefex</mark> ++x el kyma p3d el zyada</p>
+      <p>- <mark>grroup operator</mark> (5+3) - 5 el 3mlyat ly pen el akoas</p>
+
+
+      <p>- <mark>compareson operator</mark> de daiman ptrg3 kyma boleean true ao false (>,<,==,===,>=,<=,!=,!==)</p> <p>
+            - <mark>==</mark> mtsawen fe el kyma we la y4trt el tsawy fe el datatype</p>
+      <p>- <mark>===</mark> yshtrt el tsawy fe el kyma we el datatype</p>
+
+      <p>- <mark>logical operators:</mark></p>
+      <p>- (&& = and) y3ny lazem el 4rten ykono true, (|| = or) momken 4rt wa7ed yb2atruem4lazem el etnen</p>
+      <p>me hytnfz el awel fe el 3mlyat el 7sapya >> el akoas akwa 7aga tp lo nfs el stra fe 7agten nfs el aoloia men
+        hytnfz feho zi el 2sma we el drp hytnfzo mn el ymen le elshmal</p>
+      <p>- lo est5dmt 3lamet el gm3 m3 tow strings hy3ml concatenet benhom</p>
+
+      <p>- <mark>if statement</mark> lo ly goa el tow brackets kemto true ly ben el curly brackets hytnfz (if,else if
+        ,else)</p>
+      <p>- lo amr w7ed t2dr t4el el akoas kda <mark>if (true) console.log("ssss")</mark></p>
+      <p>- <mark>ternary operator</mark> if condition btre2a mokhtsra</p>
+      <p>- <mark>let x = 5 > 6 ? "okay" : "not okay"</mark> console.log(x) hytp3lk okay fe 7alet t7kok el 4rt not okay
+        fe 7alet 3dm t7kok el 4rt</p>
+      <p>- <mark>switch</mark> tre2a tania lektapet if condition</p>
+      <p>- el rkm ly gmp klmet case dh m3nah lo el mot8yr x kemto 1 ao 2 we hakaza <br>
+        t2dr tktp el case kda case 1: {} we t2dr tktp mn 8er curly brackets <br>
+        default m3naha lo mfesh ai case et722t nfz el defallut ,,, btst5dm klmet break p3d kol case 3a4an lo case
+        etnfzt yfrml we mykml4 3la pa2y el cases , switch ptkaren be tre2et ===
+      </p>
+
+      <img src="images/switch.PNG" alt="">
+
+      <p>- el loop no3een no3 pt7dd 3dd tkrar mo3yn p3d kda el loop yo2f we no3 pt7dd 4rt mo3yn yo2f 3ndo el tkrar</p>
+      <p>awel no3 pt7dd 3dd mrat el tkrar <mark>for loop</mark></p>
+      <p>- tany no3 pt7dd 4rt mo3yn we dh 3n tre2 <mark>while , do while</mark></p>
+      <p>- do while pynfz el awamer el awel p3d kda y4of el 4rt et722 wlla l2 while pt4of el 4rt el awel apl ma tnfz el
+        awmer y3ny do while ptnfz el awamer mra 3la el akl</p>
+      <img src="images/while.PNG" alt="">
+
+      <p>- <mark>break , continue</mark> break m3naha w2f el loop l8ayet hna ,,,, continue m3naha tgahl el mr7la de mn
+        el loop</p>
+      <img src="images/break.PNG" alt="">
+      <p>- lo 3ndk loop goa loop we 3ayez 3nd mr7la mo3yna to2f el loop el ap yb2a lazem tdy le kol loop esm 5as beh be
+        el shkl dh</p>
+      <img src="images/esm.PNG" alt="">
+      <p>- <mark>function</mark> lma ptktp function we tdeha name kda esmha <mark>function declration</mark></p>
+      <p>- lo mrrt arguments zyada le function hytagahl el zyada</p>
+      <p>- lo mrrt arguments a2l mn el parameters hytp3lk undefined fe el 7ala de ptst5dm <br>
+        <mark>default parameters</mark> be el shkl dh function(n=0,x=5)
+      </p>
+      <p>lo function feha etnen parameter we mrrt tlata arguments hyrmy el talet feel zpala typ lo 3ayz t5zn ai
+        arguments zyada fe array est5dm <mark> rest parameter</mark> function name(p1,p2,...zyada)
+        {console.log(p1,p2,zyada)}</p>
+      <p>- el function pto2f 3nd el <mark>return</mark></p>
+      <p>- <mark>void function</mark> y3ny mpt3mlsh return le 7aga</p>
+      <p>- el function fe javascript first class y3ny eh first class : <br>
+        y3ny y2dr t7otha kymale variable kda let x = function() <br>
+        we lmategy tstd3y el function de be tstd3yha be esm el variable <br>
+        we de esmha anonimous function 3a4an mn 8er esm <br>
+        we de kda esmha <mark>function expretion</mark> <br>
+        lo function leha esm 3ady hykon esmha <mark>function decleration</mark>
+      </p>
+      <p>- we momekn te call el function mn variable kda let x = myFun() >>> console.log(x())</p>
+      <p>- <mark>arrow function</mark> el arrow function tre2a mo5tsra le ktapet el anonimous function <br>
+        <mark>let myFun = y => y++ >>> console.log(myFun(5))</mark>
+      </p>
+      <p>- lo fe el arrow function 3ndk parameter wa7ed t2dr tktpo mn 8er akoas <br>
+
+        - lo 3ndk amr wa7ed t2dr tktpo mn 8er klmet return wlla el two curly brackets</p>
+
+      <p>- <mark>pure function</mark> de function ptt3amel m3 el parameers pto3ha fkt weel variables ly goaha fkt lo
+        et3amlet m3 variables mn bra tb2a m4 pure function we de faidtha monzma aktr we lma trage3 error htkt4fo pshola
+      </p>
+      <p> <mark>scope:</mark></p>
+      <p><mark>local scope</mark> we dh variable goa function m2drsh awslo 8er mn goa el function</p>
+      <p><mark>glopal scope</mark> we dh variable a2dr awslo mn ai mkan</p>
+      <p>typ lo function goa function we 3mlt console.log le kemet mot8yr mn dakhel el function el child we el motghyr
+        mogod da5el el function el parent hytp3o 3ady</p>
+      <p>laken lo el 3ks ,, 3mlt console.log mn el function el parent le motghyr deakhel el function el child hy2olk
+        undifined</p>
+      <p><mark>function scope</mark> we el scope dh pyt3ml lma te declare function <br>
+        <mark>block scope</mark> we el scope dh pyt3ml lma tktp ai code ben curly brackets zi if condition aw for loop
+      </p>
+      <p><mark>-self invoke function</mark> de function bttnfz mn 8er ma t3mlha estd3a2 <br>
+        pttktp kda (function name(x) { console.log(x) }<br> )(5)
+      </p>
+      <p>mynf3sh p3d ma 3mlt self invoke function tsd3y el function de tany</p>
+      <p>faydet el self invoke function en mlf el javascript pta3k pytkon mn code el js el khas pek we code mktpat tania
+        fa momken el variables td5ol fe p3d ttgnp el moshkla de be enk tktp el code el khas bek dakhel self invoke
+        function</p>
+
+      <p><mark>-hoisting</mark> awel ma mlf el javascrip be yload pysl t3ref lekol el function ma3ada el function
+        expresion ly hya btb2a kymale variable m3na kda enk t2dr tstd3y function apl el declaration pta3ha l2n ael ma
+        sf7et js pe tload el function declaration py7slha hoisting pttrrf3 y3ny</p>
+      <p>- tany 7aga py7slha hoisting hya el variables pttrf el variablesps lkn al kymapta3tha m4 pttrf3 3a4an kda lo
+        get te console.log levariable apl el declartion pta3o hytp3lk undifined nfs el klam mynf3sh tsd3y expresion
+        function apl el declaration pta3ha 3a4an hya fe variable</p>
+      <p>let , const m4 py7slhom hoisting 3a4an kda a7sn 7aga tstkhdmhom laken var py7slha hoisting</p>
+      <p><mark>-semicolumn</mark> js pt7ot -semicolumn lo7dha fe 7alat mo3yna mn dmnha lo nzlt str gded p3d klmet return
+        y3ny lo nzlt str gded hy7otlk ; p3d klmet return we zi mnta 3aref ai 7aga p3d el return m4 pytnfz y3ny lo nzlt
+        str gded p3d klmet return mfesh ai 7aga httnfz</p>
+      <p><mark>Object:</mark></p>
+      <p>- lma pt3rf variable we tdelo value dh kda esmo key value pare we el object 3opara 3n mgmo3a mn el key value
+        pares</p>
+      <p>- kol 7aga da5ele el object esmha property</p>
+      <p>-lo 3ayz tosl le property mn object : x.name ao x["name"]</p>
+      <p>- lo get ttp3 property m4 mogoda fe el object hytp3 undifined</p>
+      <p>- 3a4an tdef propert fe el object x.city="cairo" kda hydfhalk</p>
+      <p>- 3ayz tms7 property mn el object ,,,, delete x.city</p>
+      <p>t2dr t3ml function fe el object ps hykon esmha method let x = {move:function() {console.log("any")}}</p>
+      <p>3a4an tsd3y el function de kda >>> x.move()</p>
+      <p>ly fatet de anonimous function t2dr 3ady tktp function declaration kda</p>
+      <p>let x = {name="any",move () {console.log("any")}}</p>
+      <p>-klmet <mark>this</mark> goa el method ly fe object ptshawer 3la el obect nfso</p>
+      <p>-let x ={name:"any",move () {console.log(this.name)} } kda this ptshawe3r 3la x</p>
+      <p>- etf2na en this lma tkon dakhel method fe object htshawer 3la el object typ lo this goa function we el
+        function goa method we el method goa object fe el 7ala de this htshawer 3la el window y3ny m4 hynf3 </p>
+      <p>- let x = { <br>
+        name : "any",<br>
+        move () { <br>
+        function getInfo() { <br>
+        console.log(this.name) <br>
+        } <br>
+        } <br>
+      </p>
+      <p>- fe el msal ly fo2 dh this m4 ht4awer 3la x ht4awer 3la el window 3a4an t5leha t4awer 3la el object ptst5dm
+        arrow function</p>
+      <p>- let x = { <br>
+        name : "any",<br>
+        move () { <br>
+        let arrow = () => { <br>
+        console.log(this.name) <br>
+        } <br>
+        arrow() <br>
+        } <br>
+      </p>
+      <p>- ezay t3ml loop 3la el object >> fe loop mortpt be 3dd we loop mortpt beshrt hna fe el opbject mortpt be 3dd
+        hnst5dm for in fe el msal ly gay prop ptm4y 3la el properties wa7da wa7da</p>
+      <img src="images/forIn.PNG" alt="">
+      <p>- console.log("name" in x) lo ktptkda hytp3lk true ao false y3ny m3naha hl el property name mogoda fe el object
+        x wlla l2</p>
+      <p>- ka3da 3ama ai mokarna ben etnen object hydek false 3a4an el objects pykarn mkan fe el zakera be mkantany fe
+        el zakera enmael primiive value pykaren valye be value</p>
+      <p>- lo 3ndk object mo3yn we 3ayz t3ml object tany feh nfs el khwas htfdl tkrr el code fetre2ten t2dr tst5dmhom
+        3a4an mtkrrsh el code <mark>factory , constructor</mark> el constructor hoa ly mostkhdm laken hyt4r7 el tre2ten
+      </p>
+      <p>- awel tre2a hya el <mark>factory</mark> function 3adia gdan ptakhod parameters we kol mra t8yr kemet el
+        arguments pra7tk mn 8er ma t7tag t3ml object mn awel we gded</p>
+      <p>- ml7oza en lo el propert nfs el esm pta3 el parameter ptktp esm el propert ps zi el sora ly gaia</p>
+      <img src="images/factory.PNG" alt="">
+      <hr>
+      <p>- tany 7aga hya el <mark>constructor</mark> we de el most5dma fe 3ml instance mn object 3a4an pykon fe rapet
+        ben el instaces de kolha hyt4r7 el klam dh fe video el oop</p>
+      <p>- prdo function 3adia zi el factory pnmrr leha parameters wa laken kolproperty ptkon 3opara 3n variable ps mn
+        8er klmet let we ptstkhdm klmet this</p>
+      <p>- yofdl ykon awel 7rf capital we lma t3ml instance be tst5dm klmet new</p>
+      <img src="images/constructr.PNG" alt="">
+      <hr>
+      <p>- <mark>by value , by reference</mark> lo 3ndk mot8yr esmo x we mot8yr tany esmo y lo 2olt x = y we 3mlt t8yr
+        fe wa7ed mnhom el tany m4 hy7s be el tghyr dh dh fe 7alet el by value leh m4 hy7s be el tghyr 3a4an kol wa7ed fe
+        makan mokhtlffe el zakera >>> typ by reference lo3ndk etnen variables x , y we 2olt x = y we 3mlt t8yer fe x
+        mslan y kman ht7s be el t8yr dh 3a4an x , y fe 7alet by reference byshaoro 3la nfs el makan fe el zakera</p>
+      <p>ml7oza kman 3la by value by reference en fe 7alet by value lo x = 2 , y = 2 lo 2olt console.log(x==y) hy2olk
+        true 3a4an dh by value mlosh d3owa be el memory laken lo kemet x , y nfs el object we 2olt console.log(x==y)
+        hy2olk false 3a4an kol variable fehom fe makan mokhtlf fe el zakera</p>
+      <p>- type eh el data types ly ptt3amelby value ? el primitive value</p>
+      <img src="images/pvalues.PNG" alt="">
+      <p>- we eh el data types ly ptt3amel by reference ? object</p>
+      <img src="images/objects.PNG" alt="">
+      <hr>
+      <p><mark>named parameters:</mark></p>
+      <p>lo 3ndk function ptakhod parameters kter wem4 3ayz tktp el arguments pta3thom be el trtep ptp3t le el function
+        object as a parameter we el arguments htkon kym el object dh ps mtnsa4 t3ml fe el function el 5twa ly fe el sora
+      </p>
+      <img src="images/objectfun.PNG" alt="">
+      <p>-<mark>numbers</mark></p>
+      <p>- el numbers fe javascript no3 wa7ed swa2 kan rkm s7e7 ao 34ry</p>
+      <p>- NaN y3ny not a number typeof(NaN) number </p>
+      <hr>
+      <p><mark>-string:</mark></p>
+      <p>- mynf3sh double qots goa duble qots ao single goa sngle let x = "ahmed is 'good'"</p>
+      <p>- lo 3ayz tktp double goa doubleao single goa single ptstkhdm back slash <br>
+        let x = "ahmed is \"good\""
+      </p>
+      <p>- el \ lo ktpt p3dha 7rf mo3yn hykon py3ml wzefa zi mslan new line \n >>> typ lo 3ayez tktp \ fe el string
+        estkhdm aplo \ prdo let x = "ahmed \\is good"</p>
+      <p><mark>-Template Literals ` `</mark> tre2a gdeda le ktapet el string nzlt fe es6 </p>
+      <p>- lo 7apep tnzl str gded fe el tre2a el 3adia ptktp \n laken fe template Literals btnzl str gded beenter 3ady
+      </p>
+      <p>- t2dr prdo 3ntre2 template Literals tktp variable dakhel el string let x = `hello ${var}`</p>
+      <p>- fe el tre2a el 3adia kant kda let x = "hello" + x</p>
+      <p><mark>-string methods:</mark></p>
+      <p>- ai method htrg3lk string gded m4 ht2sr 3la el asly</p>
+      <p><mark>x.length</mark> : 3dd 7rod el string</p>
+      <p>- el index fe el string pybd2 mn el zero</p>
+      <p>- <mark>x.charAt(0</mark>) el method de ptmrr leha index we hytp3lk el index dh feh 7rf eh</p>
+      <p>- <mark>x.indexOf("7rf")</mark> : ptgplk el index pta3 7rf mo3yn lo el 7rf mogod aktr mn mra pygblk index awel
+        wa7ed</p>
+      <p>- lo p7st 3n 7aga m4 mogoda be indexOf hytp3lk -1</p>
+      <p>-indexOf ptakhod parameter tany 3opara 3nhpd2 ap7s mn index kam x.indexOf("e",2)</p>
+      <p>-<mark>lastIndexOf() nfs fekret indexOf wa laken ptpd2 p7s mn el akher</mark></p>
+      <p>- <mark>x.includes("n")</mark> y3ny el string x py7toy 3la el 7rf n wlla l2</p>
+      <p>t2dr t7dd position (index) ybd2 mno el search kman x.includes("string",position)</p>
+      <p><mark>x.reapeat(number)</mark> ykrr kam mra</p>
+      <p>-<mark>x.slice(1,2)</mark> de pt2t3 mn el string we ptakhod pdaia we nhaia we lo m7ddtsh el nhaia hy2t3 mn el
+        pdaia le akhr el string ml7oza : el nhaia m4 htzhr m3ak >> ml7oza kman lma pt3ml slice m4 py2sr 3la el string el
+        asly wa laken py3ml string gded</p>
+      <p>-<mark>x.substring(1,2)</mark> nfs fkret slice laken slice pt2pl kyma salepa substring m4 pt2pl salep</p>
+      <p><mark>- x.split("")</mark> pt7wel el string le array pt7dd ben el cosen kol item fe el array hykon 3opara 3n eh
+        y3ny mslan x.split("e") y3ny kol ma te2apel e kda dh item we el e m4 htp2a mogoda fe el array tp lo ktpt benel
+        cosen string fay mn 8er msafat kol 7rf hykon item fe elarray</p>
+      <p>- split momken takhod parameter tany y3ny ana 3ayez kamitem fe el array lo spt el cosen fadyen hy3mlk array mn
+        item wa7ed 3opara 3n el string be el kamel x.split()</p>
+      <p><mark>x.toUpperCase() , x.toLowerCase()</mark> wzeftha m3rofa</p>
+      <p><mark>x.trim</mark> pt4el el msafat el zyada</p>
+      <p><mark>x.trimStart() ,, x.trimEnd()</mark> pt4el el msafat mn el pdaya ps aw mn al nhaia ps</p>
+      <p><mark>x.startsWith("any")</mark> htrg3lk true ao false</p>
+      <p><mark>x.endssWith("any")</mark> htrg3lk true ao false</p>
+      <p>t2dr t7dd el position x.strartsWith("string",position)</p>
+      <hr>
+      <p><mark>Array:</mark></p>
+      <p>lma pt8yr kemet item py2sr 3la el array el asly 3la 3ks el primiive value zi el string lo 8yrt fe kemet 7rf m4
+        py2sr 3la el string el asly</p>
+      <p>let x = [] , index el array pybd2 mn el sfr ,, ptnady 3la 3onsr mo3ynbe el index pta3o console.log(x[0])</p>
+      <p>- 3a4an t8yr mn kemet item x[1] = 40 kda enta pt2olo item ly index pta3o 1 5ly kemto 40</p>
+      <p>- el array momken y7toy 3la data types mokhtlfa</p>
+      <p>- arry.length htgplk 3dd itemes el array 3ayz ttp3 a5r item fe el array console.log(arry[arry.length - 1])</p>
+      <p><mark>Array methods:</mark></p>
+      <p><mark>ary.push(6)</mark> pydef item fe el akhr</p>
+      <p><mark>ary.unshift(6)</mark> pydef item fe el awel</p>
+      <p><mark>ary.pop()</mark> pyms7 item mn el akhr we lo tp3t kdaconsole.log(ary.pop()) hytp3lk kemet el item ly enta
+        ms7to</p>
+      <p><mark>ary.shift()</mark> nfs el klam 3la pop walaken ptms7 item mn el awel</p>
+      <p><mark>ary.splice(-,-,-)</mark> ptakhod tlata parameters awel wa7ed htdef items mn index kam? tany parameters
+        htms7 kam item? talat parameter el items ly htdefha</p>
+      <p><mark>ary.fill(value,start,end)</mark> fill de ptstpdl items be items tanyeen el value de el item el gded p3d
+        kda start we end</p>
+      <p><mark>ary.slice(start,end)</mark> pt2t3 goz2 mn el array we m4 pt2sr 3la el array el asly</p>
+      <p><mark>ary.concat()</mark> ptdmg 2 arrays ao aktr mn etnen m3 p3d</p>
+      <p><mark>ary.reverse()</mark> pt3ks items el array</p>
+      <p><mark>arry.toString()</mark> py7wel el array le string ps pykon fe fasla , lo 3ayz enta t7dd shkl el fasla
+        estkhdm join</p>
+      <p><mark>-arry.join()</mark> lo spt pen el cosen fady htp2a zyhazi toString lo 7ddt 7aga mo3yna ("*") ngma mslan
+        htp2a hia de el fsla lo 3mlt kda ("") hyb2a el string kolo laze2 fe p3do</p>
+      <p><mark>ary.indexOf(item) , ary.lastIndexOf(item), arr.includes(item)</mark></p>
+      <p><mark>arry.find(e => e > 7)</mark> de ptdor fe el array 3la el 4rt ly enta m7ddo we mogrd ma ptla2y el item ly
+        m722 el 4rt pto2f p7s lo ml2t4 7aga ptrg3 undifined</p>
+      <p><mark>arry.filter(e => e > 7)</mark> zi find pzpt psptrg3 kol el 3naser ly pt722 el 4rt m4 awel 3onsor fkt lo
+        ml2t4 7aga ptrg3 array fadia</p>
+      <p><mark>arry.findIndex(e => e > 7)</mark> nfs fkret find ps de ptgplk el index ly py722 el 4rt lo ml2t4 7aga
+        ptrg3 -1</p>
+      <p><mark>arry.every(e => e > 7) , arry.some(e => e > 7)</mark> dol pyrg3o true ao false</p>
+      <p>- ezai t3ml loop 3la array mpd2yan enta 3aref 3dd mrat el tkrar yb2a tst5dm for loop kda</p>
+      <p>- for (let i = 0;i < arry.length;i++) console.log(arry[i])</p> <p>- we fe loop tany et3ml fe es6 <mark>for (let
+            e of arry) console.log(e)</mark></p>
+      <p>-<mark>arry.forEach((element,index,array) => console.log(element,index))</mark> pt3ml loop 3la el array p4kl ashl we
+        t2dr t3rd el item wo el index</p>
+      <p>-<mark>arry.map(e => e++)</mark>pt2dr t3ml t8yerat 3laitems el array we trg3 el nateg fe array gdeda</p>
+      <p>- ana la7ezt en .filter() ptdor fe el array 3la item mo3yn enta m7dd mosafato , laken .map() pt5lek t3ml t8yrat
+        fe el array zi mnta 3ayz zi mslan i++ y3ny 5ly kemet kol item tzed wa7ed</p>
+      <p>- <mark>arry.reduce((p,c) => p+c)</mark> ptakhod two parameters awel wa7ed fe awel mra pykon awel 3onsor we el
+        tany pykon tany 3onsor we hakaza we t2dr t3ml ai 7aga fe two params dol zi mslan tgm3hom fygm3lk items el array
+        kolha</p>
+      <p><mark>arry.reduceRight((p,c) => p+c)</mark> zi reduce laken ptpd2 mn el ymen</p>
+      <p><mark>typeof()</mark> ptgplk el data type ,, el datatype pta3et el array object</p>
+      <p><mark>Array.isArray(var)</mark> pt2olk dh array wlla l2 true or false</p>
+      <p><mark>single Arrays</mark> de el array el 3adya</p>
+      <p><mark>Multidimensional Arrays</mark> we de array of arrays</p>
+      <p>ezai at3amel m3 <mark>array of array</mark></p>
+      <img src="images/capture5.PNG">
+      <p>ezzai a3ml loop 3la array of array we dh est5damo aktr fe elgames develobment</p>
+      <img src="images/capture6.PNG"><br>
+      <p><mark>Destructing Assignment</mark> 3ndk array 3ayz t5ly kolitem fe mot8yr lo7do ? a7sn ma tfdl t3ml kda let a
+        = arry[0] 2alk l2 a3ml kda let [a,b,c,d] = arry lo 3mlt console.log leay kyma mn el a ,b,c,d hytp3lk item mn el
+        array... nfs el klam 3la el object ps hykon kda let {a,b,c,d} = obj ps a,p,c,d lazem tkon nfs el asamy ly fe el
+        object</p>
+      <p>be el nsap le el array lo 3ayz t3mlskip le item mo3yn fe el array sep mkano fady kda <br>
+        let [one, , three, , five] = x
+      </p>
+      <img src="images/capture7.PNG"><br>
+      <p><mark>spread operator</mark> 7aga nzlt fe es6 ptt3amel m3 el array we el object lo 7aga mtgm3a ptfrdha
+      </p>
+      <p>msal pset lo function ptakhod tlata parameter we lma tstd3 el function 3ayz tmrr el arguments mn array feha
+        tlata items htmrr be el shkl dh</p>
+      <img src="images/spread.PNG" alt="">
+      <p>msal kman 3la spread operator fe el masal ly gai nftrd enk 3ayz awel etnen item mn el array we el pa2y tt7fz fe
+        array gded</p>
+      <img src="images/spreadc.PNG" alt="">
+      <p><mark>Array Constructor :</mark></p>
+      <p>ai 7aga fe javascript 3opara 3n object we kol object lazem ykon leh constructor t3ml mno instance</p>
+      <p>ezay a3ml constructor le array let x = new Array(1,2,3) console.log(x) we klmet new t2dr mtktphash</p>
+      <p>ps el tre2ade feha moshkla enk lo 3ayz t3ml array mn item wa7ed m4 hynf3 el 7l let a = Array.of(1) de pt2pl
+        kema wa7da ao aktr mn kyma</p>
+      <img src="images/capture8.PNG"><br>
+      <p><mark>let a = Array.from(arry)</mark> etf2na en ai t8yer py7sl 3la el array py2sr 3la el array el aslya typ lo
+        3ayz a3ml t8yerat mn 8er ma aasr 3la el array el asly ? 5od nos5a mn el array el asly 3n tre2 Array.from</p>
+      <p>yb2a Array.from() pta5od two parameters awel parameter ai 7aga ht7otha htt7wel le array string object ai 7aga ,
+        tany parameter pya5od arro function pt3ml map 3la el array el function de pta5od two parameters element we
+        index>>>>> let b = Array.from({length:50},(e,i) => i+1) </p>
+      <hr>
+      <p><mark>let x = new Set([1,2,3])</mark> 4ph el array el item ly ytktp mra mynf34 tktpo tany lo 7tet fe el set
+        array hy4el ai kyma motkrera,,,,, el set t2dr tfedk fe t7wel array 3adia le set 3a4an tt5ls mn el kym el mokrra
+        we trg3 t7wel el set le array ,,,,,, t2dr t2ol x.add(4) ao x.delete(4) ao x.size ttp3lk 3dd el x ,,, x.has(4)
+        ytb3 true ao false</p>
+      <hr>
+      <p><mark>Type Conversion</mark> t7wel mn no3 le no3</p>
+      <p>lma pt7wel mn no3 le no3 ptst5dm el constructor wepykon awel 7rd capital wemn 8er klmet new y3ny mslan ht7wel
+        mn string le number Numaber("string")</p>
+      <p><mark>toString()</mark> 3ayz t7wel ai 7aga le string est5dmha </p>
+      <p><mark>parseInt(3.65)</mark> pt4del el ksr mn el rkm we pt7wel el string le number </p>
+      <p><mark>Number("5")</mark> lo user pyktp rkm fe input pykon string 3ayzt7wolo le nymber pykon kda</p>
+      <p><mark>x.Array(any datatype)</mark> 3a4an t7wel ai daa type le array</p>
+      <hr>
+      <p><mark>math methods</mark></p>
+      <p>isNaN() pt3rfk dh number wla l2</p>
+      <img src="images/capture9.PNG"><br>
+      <hr>
+      <p><mark>strict mode</mark></p>
+      <p>el defalult mode hoa <mark>sloppy mode</mark> typ lo 3ayez tktpstrict mode ptktp kda fe pdaet el mlf pta3k ao
+        goa function "strict mode"</p>
+      <p>eh el frk pen el sloppy we el strict awel fr2 fe el variables lo nset tktp let we enta pt3rf variable kda el
+        mot8yer hykon glopal 7ta lo mktop fe function lo enta sloppy mode m4 hyzhrlk error lo mktpt4 let lo strict
+        hyzhrlkerror</p>
+      <p>tany 7aga lo nset we mrrt etnen parameter be nfs el esm loppy mode m4 hytl3lk error strict hytl3lk</p>
+      <hr>
+      <p>m3lomat zyada 3n es6</p>
+      <p>let mynf34 t3ml leha re declare fe nfs el scope nfs el klam 3la const mynf3d re declare be const wla var wla
+        let</p>
+<hr>
+<h1 id="es6"><mark>ES6</mark></h1>
+<p><mark>Destructuring  </mark></p>
+<p>Destructuring  le el object ::</p>
+<p>lo 3ndk object 3a4an tnady 3la ai property pt3ml kda user.name fe tre2a ashl fe es6 esmha Destructuring 3ashan tnady 3la el proprites pshkl ashl ml7oza mohma lazm asamy el variables tkon nfs asame el properties ly fe el object lo esm mokhtlf hytp3lk undefined we t2dr t7ot default value 3a4an mytp3sh undefined </p>
+<img src="images/es6des.PNG"><br>
+<p>t2dr t7ot esm mokhtlf tnady beh 3la el property be el shkl dh</p>
+<img src="images/es6des2.PNG"><br>
+<p>lo 3ndk object goa object m4 lazm t3ml kda khales user.lang.html el tre2a el ashl fe el sora </p>
+<img src="images/des3.PNG"><br>
+<p>Destructuring  le el array ::</p>
+<p>nfs el klam we t2dr kman t7ot default value</p>
+<img src="images/desarry.PNG"><br>
+<p>lo 3ayez t3ml skip le item mn el array a3ml mkano comma zi el sora</p>
+<img src="images/skip.PNG"><br>
+<p>tp lo 3ndk array goa arry nfs el hkaia we t2dr t7ot default value</p>
+<img src="images/arryarry.PNG"><br>
+<p>Destructuring  le el parameters::</p>
+<img src="images/desparam.PNG"><br>
+<p>t7senat fe el object</p>
+<p>lo el property name btsawy el property value m4 lazm tktp el value</p>
+<img src="images/nfsesm.PNG"><br>
+<p><mark>set</mark> el set de no3ha object bt2dr t5zn feha data ps m4 pt7tag key zi el object</p>
+<p>let x = new set(); console.log(type of x) hydek object</p>
+<p>t2dr t7ot fe el set ai data ynf3 yt3ml 3leha loop zi el string array object</p>
+<p>let any = new Set([1,2,3])</p>
+<p>hetgahl ai data mtkrra y3ny new Set([1,2,3,3]) hytgahl el tlata el tania de</p>
+<p>mt2drsh tnady 3la item be el index pta3o 3la 3ks el array</p>
+<p>t2dr t7wl el array le set we lma t7wlha hyshel ai items mokrra msal ::</p>
+<p>let arry = [1,1,2,3,3,4] let sett= new Set(arry)</p>
+<p>we el 3ks t2dr trg3 el set le arry tany console.log(...sett)</p>
+<p>set methods :</p>
+<p>let x = new Set(); x.add("one").add("two")</p>
+<p>x.delete("s")</p>
+<p>x.has("any") htrg3 true ao false</p>
+<p>x.clear() ptfdy el set</p>
+<p><mark>el map </mark>  nfs fkret el object ps el elkhtlaf enk t2dr t5ly el key ai data typ</p>
+<p>t2dr tmla el map be el tre2a ly fo2 ao ly t7t fe el sora ly gaia</p>
+<img src="images/mapSet.PNG"><br>
+<p>map methods :</p>
+<p>console.log(myMap.size) hytp3lk 3dd items el object</p>
+<p>console.log(myMap.get("keyName")) btget</p>
+<p>console.log(myMap.has("keyName")) btrg3 true ao false</p>
+<p>console.log(myMap.delete("keyName")) btms7</p>
+<p>myMap.clear() ptfdy el map</p>
+<p>t2dr tst5dm forEach m3 set , map 3ady foreach m3 set awl parameter hy3rdlk el items m3 el map awl parameter hy3rdlk el value tany paameter hy3rdlk el key</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <hr>
+      <p><mark>Dom</mark></p>
+      <p>t2dr tktp code javascript <mark>internal</mark> fe tagscript dakhel el head ao el body lo 7teto fe el head el
+        motsf7 hy4of acoad js elawel 3a4an kda el a7sn t7oto fe a5r el body 3la ma acoad html t7ml</p>
+      <p>t2dr tktp <mark>external</mark> fe mlf khargy emtdado .js </p>
+      <p>ao t2dr tktp inline fe tag html</p>
+      <p>ai tag esmo node element we lo text mslan hykon esmha node text</p>
+      <p>3ndna mostl7 parent ,ao child dol m3rofen sibling dh ebn le nfs el node</p>
+      <p><mark>select element:</mark></p>
+      <p>awel tre2a <mark>document.getElementById("idName")</mark> klmet element mofrd 3a4an mfe4 3ndk 8er id wa7ed m4
+        pytkrr</p>
+      <p>tany tre2a <mark>document.getElementsByClassName("className")</mark> klmet elments hna gm3 3a4an el class
+        pytkrr lma ttp3 fe el console hytp3lk html collection 7aga 4ph el array we lazem tosl le el 3naser be el index
+      </p>
+      <p>talt tre2a hya <mark>document.getElementsByTagName("section")</mark> prdo hytp3lk html collection</p>
+      <p>fe tre2a tnady beha 3la el 3onsor zi ma ptnady 3leh fe css kda <br>
+        <mark>document.querySelector("div.demo")</mark> we de ptgplk awel 3onsor ps <br>
+        <mark>document.querySelectorAll("div.demo")</mark> we de ptgplk node list m4 html collection we feha kol el demo
+      </p>
+      <p><mark>document.documentElement</mark> lo tp3tha hytp3lk tag el html be ly feh</p>
+      <p><mark>document.body , document.head</mark> de pttp3 el body we de pttp3 el head</p>
+      <p><mark>document.title</mark> pttp3lk el title we kman momken t8yr el title document.title = "new title"</p>
+      <p><mark>document.forms</mark> pttp3lk html collection be el forms ly mogoda</p>
+      <p>console.log(document.forms[0].input1.value) y3ny atp3ly el input ly wa5ed name input1 fe el form 1 we momken
+        pdl value tktp type hygplk el type</p>
+      <p><mark>document.images</mark> tml collection be el images ly mogoda</p>
+      <p><mark>document.links</mark> ptrg3lk tag el a ly wakhed href</p>
+      <p><mark>document.anchors</mark> ptrg3lk tag el a ly wakhed name</p>
+      <p><mark>var.style.fontSize="50px"</mark> el t7kkom fe el style lo klma mn etnen yb2a camelCase</p>
+      <p><mark>Dimentions :</mark></p>
+      <p><mark>clientHeight , clientWidth</mark> hygplk ertfa3 ao 3rd el 3onsor + el padding pspygplk ly zaher fkt ly
+        t7t fe el scroll m4 hyban</p>
+      <p><mark>scrollWidth, scrollHeight</mark> pygplk el ertfa3 we el 3rd + padding + ly m4 payen mn el scoll</p>
+      <p><mark>offsetHeight,offsetWidth</mark> pygplk ertfa3 we width + padding + bar el scroll</p>
+      <p><mark>clientTop</mark> ptgplk size el border</p>
+      <p><mark>offsetTop,offsetLeft</mark> htgplk el msa7a mn awel el body le 7d awel el 3onsor</p>
+      <p><mark>x.innerHTML</mark> http3lk ai 7aga da5el el div swa2 kant text ao tags</p>
+      <p><mark>x.textContent</mark> http3lk aitext we hhtgahl el tags</p>
+      <p>ml7oza lo ktpt x.textContent = "< span>hello < /span>" hy3tpr kol dh ns we ytp3o laken innerHTML hy3tp el span
+            tag we ytp3 klmet hello ps</p> <p><mark>var.value</mark> py3rdlk el value pta3et el inputs we t2dr t3ml set
+            kman m4 get ps var.value = "any"</p>
+      <p><mark>radio.checked</mark> de ptst5dmha m3 el radio we el checkbox 3a4an t3rf el user e5tar de wlla l2 http3lk
+        true ao false</p>
+      <p><mark>Attributes</mark></p>
+      <p>fe Attributes ptkon property we Attributes l2 property y3ny t2dr fe js tktp x.href mslan ao x.src</p>
+      <p><mark>x.getAttribute("attrName")</mark> hy3rdlk el attribute</p>
+      <p><mark>x.setAttribute("attrName","attrValue")</mark> ht7ot kyma le attribute</p>
+      <p><mark>x.hasAttribute("attrName")</mark> hytp3lk true ao false</p>
+      <p><mark>x.removeAttribute("attrName")</mark>ptms7 el attribute</p>
+      <p><mark>x.toggleAttribute("attrName")</mark> lo el attribute mogod hy7to m4 mogod hy4elo</p>
+      <p><mark>x.classList</mark> hy3rdlk el classes</p>
+      <p><mark>x.classList.add("any-class")</mark> hyzowd classes</p>
+      <p><mark>x.classList.remove("any-class")</mark> hyms7 el classes</p>
+      <p><mark>x.classList.toggle</mark> el classes mogod hy7to m4 mogod hy4elo</p>
+      <p><mark>x.classList.contains("any-class")</mark> hyrg3lk true ao false</p>
+      <p><mark>x.classList.replace("old","new")</mark> hypdl class be class</p>
+      <p><mark>x.classList.length</mark> hygplk 3dd el classes</p>
+      <p><mark>Create Nodes</mark> fe arp3 7aga momken t3mlhom create (tag,comment,text,attribute)</p>
+      <p><mark>document.createElment("p")</mark> ptcreate element</p>
+      <p><mark>document.createTextNode("any text you want")</mark> ptcreate text</p>
+      <p><mark>document.createComment("comment")</mark> ptcreate comment</p>
+      <p><mark>var.cloneNode()</mark> ptakhodnoskha mn el tag mn 8er m7twa el tag lo3ayz m7twa el rag kman aktp true ben
+        el kosen</p>
+      <p><mark>var1.appendChild(var2)</mark> htdef child feel akhr</p>
+      <p><mark>var1.appendChild(var2,var3)</mark> zi appendChild ps t2dr tdef aktr mn tag</p>
+      <p><mark>var1.insertBefore(var2, var3)</mark> y3ny def var2 apl var3 kol dol fe el parent var1</p>
+      <p><mark>Navigation</mark></p>
+      <p><mark>div.childNodes</mark> hytp3lk kol el child pta3et el div bma fehom el msafat ly ptt3ml be enter</p>
+      <p><mark>div.children</mark> hytp3lk el tags ly goa el div ps mn 8er msafat</p>
+      <p><mark>div.children.length</mark> hytp3lk 3dd el children</p>
+      <p><mark>div.firstElementChild</mark> hytp3lk awel child</p>
+      <p><mark>div.lastElementChild</mark> hytp3lk akhr child</p>
+      <p><mark>div.parentElement</mark> hytp3lk parent</p>
+      <p><mark>div.nextElementSibling</mark> hytp3lk el akh el taly</p>
+      <p><mark>div.previousElementSibling</mark> hytp3lk el akh el sapek</p>
+      <p><mark>div.remove()</mark> hyms7 el 3onsor nfso</p>
+      <p><mark>p.removeChild(p.firstElementChild)</mark> hyms7lk child lazm t7dd anho child fehom </p>
+      <p><mark>var.files</mark> de ptt3amel m3 input type file</p>
+      <p><mark>Events</mark></p>
+      <p>t2dr tktp el events inlinefeel tag ao var.onclick=function() {}</p>
+      <p>ai event lo mrrtle el function parameter 3adatan pykon esmo e ao event hytp3lk m3lomat 3n el event</p>
+      <p>m3loma zi e.target de el 3onsor ly tm 3leh el event</p>
+      <p>fe method mohma leha 3laka be el parameter event we hya e.preventdefault() we ptmn3 el eftrady </p>
+      <p>lo 3amel event inline we 3ayz ttp3 m3lomat 3no ly hya e ao event lazem tktpha be klmet event m4 e ps</p>
+      <p><mark>e.stopPropagation()</mark> ptmn3 el ent4ar</p>
+      <p>lo 3mlt event we 2olt console.log(this) hytp3lk el 3onsolr ly tm 3leh el event dh lo function 3adia lo arrow
+        function ht4awer 3la el window lo datf el event inline we est5dmt this hy4aer 3la el window</p>
+      <p><mark>btn.addEventListener("eventName", function)</mark> tre2a tania le el events</p>
+      <p>eh el fr2 pen el tre2ten lo ktpt el tre2a el 3adya btn.onclick pt3ml function p3den nfs el 3onsor 3mlt 3leh
+        function mo5tlfa hynfz a5r wa7da laken add event listenet htnfz kol el functions m4 htms7 7aga</p>
+      <p>ezai tw2f el add event listener aw ezai t5ly el button ynfz el function mra wa7da</p>
+      <img src="images/addEvent.PNG" alt="">
+      <p>el afdl tstkhdm addEventListener 3a4an peha t2dr tdef akt mn function m4 htms7 ly aplha</p>
+      <p><mark>BOM</mark></p>
+      <p>el t3amol m3 el broweser</p>
+      <p><mark>innerHeight , outerHeight, innerWidth, outerWidth</mark> ptgpolk tol ao 3rd el sf7a el outer pygep kol el
+        height + el tapat we el scrol we kol 7aga</p>
+      <p><mark>console.log(scrollY) ao scrollX</mark> pytp3lk et7rkt ad eh be el scroll</p>
+      <p><mark>scrollBy(x,y)</mark> y3ny et7rk bmkda y</p>
+      <p><mark>scrollTo(x,y)</mark> y3ny scroll l8aet el no2ta y</p>
+      <p><mark>alert,confirm,prompt</p>
+      <p><mark>localStorage.setItem("key","value")</mark> pt5zn value fe el localStorage</p>
+      <p><mark>localStorage.getItem("key")</mark> ptrg3 data mn el localStorage</p>
+      <p><mark>localStorage.removeItem("key")</mark> ptms7 key mn el localStorage</p>
+      <p><mark>setTimeout(() => {},1000)</mark> sa3at ptkon 3ayz tnzf code mo3yn p3d 3dd mo3yn mn el swany ptstkhdm de
+        clearTimeout(varContainSetTimeout) ptw2f el set</p>
+      <p><mark>setInterval</mark> nfs ly aplo psdh pytkrr ,,, clearInterval(varContainClearInterval) htw2f el
+        setInterval</p>
+      <hr>
+      <p><mark>this key word</mark></p>
+      <p>lo ktpt this global hytp3lk el window</p>
+      <p>lo ktpt this fe function prdo hytp3lk el window</p>
+      <p>this dakhel method we el method dakhel object kda this ht4awer 3la el object</p>
+      <p>el events lo lo ktptha fe mlf js this ht4awer 3la el elment ly tm 3leh el elment lo ktpt el event inline this
+        ht4awer 3lael object</p>
+      <p>lo this fe arrow functoin ptgep kemtha mn el ap pta3ha</p>
+      <p><mark>Synchronous vs Asynchronous</mark></p>
+      <p>Synchronous: de m3naha en el code pytnfz str str function function mynf34 two functions y4t8lo m3 p3d el awla
+        ttnfz p3d kda el tania</p>
+      <p>Asynchronous de ptp2a function pta5od w2t kper zi mslan lma tgep data mn el api ao set time we set internal ao
+        el events fe el 7ala de el code m4 hyo2f l8aet ma el function de ttnfz l2 pa2y el code hy48l fe nfs el w2t ly el
+        function el Asynchronous pttnfz ... hna zhr mostl7 <mark>callback function</mark> defunction pt3mla we t7dd enha
+        ttnfz p3d mael Asynchronous function tnfz l2n enta lo nfzt el callback functoion apl ma el Asynchronous ttnfz
+        hyzhrlk errors zi mslan est3a2 data mn api lo 3mlt callback function el awel hy2olk ana lesa ma 4oft4 el data de
+      </p>
+      <p><mark>Promise</mark> mgmo3et awamer lo etnfzt y7sl kaza mtnfzt4 y7sl kaza ... m3mola le el t3amol m3 el
+        Asynchronous function zi mslan user py3ml create account le nfso fe a7tmal yktp eldata s7 we fe e7tma yktp
+        eldata 8lt el promise pt7ddfe 7alet enoktp s7 y7sl eh fe 7alet eno ktp 8lt y7sl eh</p>
+      <p>el promise pta5od fe el parameter pta3ha function we el function de pta5od tow parameters 3adatan pykon esmhom
+        resolve , reject momken t3ml if else fe el promise t2olo lo el code etnfz be nga7 estd3y function el resolve ly
+        ptp2a mogoda fe <mark>then</mark> we tstd3y el reject fe else ly hia mogoda fe <mark>catch</mark></p>
+      <img src="images/promise.PNG" alt="">
+      <p><mark>class</mark></p>
+      <p>zman kona pn3ml nmozg leobject we na5od mno nos5 be elshkl ly fe elsora dh</p>
+      <img src="images/capture3.PNG"><br>
+      <p>el moshkla p2a lma t7p tdef method ly hia function le el nmozg dh mkn4 pynf3 we kan lazem t3ml 7aga esmha
+        prototype zi ly fe elsora </p>
+      <img src="images/capture14.PNG"><br>
+      <p>lma t7b tsd3y elfunction ht2ol mai.welcome();</p>
+      <p>fe es6 p2a fe shkl a7sn le elklam ly fat dh esmo class </p>
+      <img src="images/capture15.PNG"><br>
+      <p>we lma t7p tsd3y function hykon pnfs eltre2a mai.welcome();</p>
+      <p>ml7oza mohma mynf3sh gwa el class t3ml mot8yrat be klmet let const var t3ml mot8yer mn 8er el key words dol</p>
+      <p>lo 7apep a3ml class gded moshtrk m3 el class el 2dem fe 7agat ps elgded feh 7agat zyada p3mlo be elshkl dh</p>
+      <img src="images/capture16.PNG"><br>
+      <p>we t2drs tstd3y method mn elclass el 2dem 3ady</p>
+      <p>el class mgmo3a mn el properties we el methods,, el modules mlf feh classes we functions we variables t2dr
+        tstkhdmhom fe aktr mn project</p>
+      <hr>
+      <h1><mark>AJAX</mark></h1>
+      <p><mark>API</mark> application programming interface server ptgep mno el data</p>
+      <p><mark>Ajax</mark> asynchronous javascript and xml de el tre2a ly ptgep behaq el data</p>
+      <p><mark>Json</mark> javascript object notation el 4kl ly el data ptkon 3leh object ao array of objects</p>
+      <p><mark>status code </mark></p>
+      <p>200 = y3ny kda enta estlmt el data</p>
+      <p>404 = file not found </p>
+      <p>500 = moshkla fe el server</p>
+      <p><mark>status code </mark></p>
+      0 === y3ny lessa m3mlt4 open <br>
+      1 === 3mlt open <br>
+      2 === send <br>
+      3 === lesa el data py7slha downloading t2dr hna t3ml function tzhrlk loading aanimation 3la ma el data tzhr <br>
+      4 === kda el data wslt mn el server <br>
+      <p><mark>Requist Methods</mark></p>
+      <p>Get : Get data</p>
+      <p>post : add data</p>
+      <p>put : t3del fe el data mslan ht3dl fe object kamel</p>
+      <p>patch : t3del fegoz2 mn object m4 7agakamla</p>
+      <p>deletee : delete data</p>
+      lazem klmet get ao post tp2a capital<br>
+      FE OBJECT BUILT IN FE EL JAVASCRIPT ESMO XMLHttprequest() bna5od mno instanse y3ny nos5a <br>
+      we n7ot elsnos5a de fe variable 3ashan net3amel be elvaraible dh p3d kda <br>
+      let requet = new XMLHttprequest();<br>
+      fe method fe el object dh esmha open ptakhod two parametres awel wa7ed el method get ao post we hakaza tany
+      parameter el url pta3 el api <br>
+      request.open("get","url");<br>
+      p3d ma 3mlt open lazem a3ml send <mark>request.send()</mark> send pta5od parameter fe 7alet put , patch,post el
+      parameter 3opara 3n el data ly enta htp3tha <br>
+      p3d kda lazm nt2kd en el stat = 4 m3na enha ptsawy arp3a yb2a kda h33rf apd2 asht8l<br>
+      fe 7aga esmha status lazem tkon ptsawy 200 3ashan t3rf tpd2 tsht8l lo hia ptasawy 404 yb2a fe 7aga 8lt <br>
+      enta mslan katep link el json 8lt ao el moke3 pta3 el json wa2e3 lo ptsay 403 yb2a anta mmno3 mn est5dam mlf el
+      json dh <br>
+      <img src="images/capture12.PNG"><br>
+      kol mlf el json hyt5zn fe 7aga esmha response b3d kda lazem t3ml send 3ashan t3rf tst5dm pyanat mlf el json
+      request.send()<br>
+      fe moshkla en javascript ptstlm mlf el json ka string fa a7na pn7olo tany 3n tre2 JSON.parse()<br>
+      TYP LO ANA HP3T DATA LE EL API PTST5DM json.STRINGIFY 3A4AN HYA M4 PT2PL 8ER STRING
+      <img src="images/capture13.PNG"><br>
+      ezai tst5dm el promise fe ajax <br>
+      <img src="images/ajaxPromise.PNG" alt=""> <br>
+      we dh msal fe 7alet <mark>post</mark> <br>
+      <img src="images/post.PNG" alt=""> <br>
+      <p><mark>fetch api</mark></p>
+      tre2a ashl mn ajax <br>
+      ptstd3y function esmha fect() ptakhod two parameters awel wa7ed link el url tany wa7ed object
+      fe el method get wla post wlla eh el defallut method get y3ny lo htst5dm get mtktp4 el parameter el tany kda <br>
+      fetch() ptrg3 promise fa enta pt3ml then ptakhod arrow function we t3ml le el data ly rag3a parse 3n tre2 function
+      json() be el tre2a ly fe el sora we p3d ma t3ml parse pt3ml then tanis 3a4an t3rd el data ly rag3a <br>
+      <img src="images/fetch.PNG" alt=""> <br>
+      lo 3ayz t3ml <mark>post</mark> ptmrr tany parameter 3opara 3n object <br>
+      <img src="images/fetchp.PNG" alt=""> <br>
+      <mark>regular expresion</mark> <br>
+      <p>awel 7aga el range [] ly gowa el [] esmo range</p>
+      <p>[AB] m3naha a aw b tp lo ktpt ab mn 8er akwas m3naha lazem ab gmp p3d </p>
+      <p>typ lw 3aez mn A l8ayet z htfdl tktp 7rf 7rf l2 ht3ml kda [A-Z] de m3naha mn 7rf a l8ayet z we lazem ykon
+        capital</p>
+      <p>yb2a faydet [] awel 7aga enk pt3ml or y3ny dh ao dh [ab] tany 7aga pt3ml rang y3ny mn kaza le kaza [A-Z]</p>
+      <p>momken t3ml kda [A-Z0-9] m3naha lo 7rf mn a l8ayet z yb2a true ao rkm mn 0 le 9 yb2a true</p>
+      <p>tany rmz hwa rmz el or | y3ny lo ktpt A|B m3naha a ao b</p>
+      <p>\w m3naha ai 7rf mn a to z sowa2 capital ao small we ai rkm mn 0 le 9 we _ dh ao dh ao dh el w e5tsar le word
+      </p>
+      <p>\d m3naha mn sfr le 9 el d e5tsar le digit</p>
+      <p>\s m3naha space </p>
+      <p>[^ABC] m3naha ai 7aga fe eldonia 8er a , b,c true laken a,b,c false we momken tsd5dmha m3 el e5rsarat ly zi de
+        <br>
+        ps lazm tkon gwa kos zi kda [^\d] m3naha ai 7aga fe eldonia 8er el arkam mn 0 le 9 aw3a t7ot ^ pra akwas []<br>
+        ^ pra el kos leha est5dam gwa el cos leha est5dam tany
+      </p>
+      <p>lo ktpt ai mgmo3a mo5tsra be 7rf capital m3naha ai 7aga fe eldonia 8er ly goa el mgmo3a elmo5tsra zi kda <br>
+        \W m3naha ai 7aga 8er el7rof capital we small we elarkam we _
+      </p>
+      <p>. el no2ta de m3naha kol 7aga</p>
+      <p>^[Aa] m3naha lo el klma ptpd2 be A , a yb2a true ai 7aga tania yb2a false </p>
+      <p>e$ y3ny el klma ptnthy be 7rf el e lo m4 ptnthy pe 7rf el e yb2a false</p>
+      <p>lo ktpt kda mslan ^\d\d$ m3naha d5l rkmen ps aktr nmn rkmen aw a2l hydek error tp lo 3aez atp3 100 rk hktp \d
+        100 mrra <br>
+        fe 7l a7sn ^\d{10}$ el cosen dol m3nahom d5l 10 arkam <br>
+        fe ml7oza mohma {} elcosen dol lehom 3laka be ly 2plhom mopashratan fkt y3ny dh kda ^\d\d{10}$ m3naha 11 rkm m4
+        20 rkm <br>
+        ^\d{10,}$ de m3naha 10 arkam ao aktr laken a2l mn 10 arkam ydek error 3mlnaha ezai be elfsla de ,<br>
+        3lamet za2ed + m3naha rkm wa7ed ao aktr ^\d+$ laken lo mktptsh ai 7aga ydek false<br>
+        ^\d*$ 4ph el + pzpt laken elfr2 en lo mktp4 7aga 5ales m4 hydek false <br>
+        3lamet el estfham m3naha lo etktp true mtktpsh true prdo laken mra wa7da fkt ^colou?r$ m3naha 7rf el u etktp
+        tmam mtktpsh tmam prdo<br>
+        msal kman 3la ? lo mslan 3aez el user yd5l m3na klmet 7mmam spa7a be elenglezy lo d5l pool yb2a true lo d5l
+        swimming pool yb2a true prdo <br>
+        lo 3mlt kda yb2a 8lt ^swimming?pool$ l2n ? 5asa be el 7rf ly 2plha fkt el 7l n ana a3ml grouping
+        ^(swimming)?pool$<br>
+        elno2ta kan m3naha evrey thing tp lo 3aez at2kd el user katep no2ta wla l2 a3ml kda \. nfs el kllam 3la + * ?
+        ast5dm m3ahom \<br>
+        be elshkl dh \+ \* \?
+      </p>
+      <p>ezai 3ml validation le email awlan dh shkl el email mmmmmm@yahoo.com</p>
+      <p>^[A-Za-z0-9_-]+@(yahoo|gmail|hotmail)\.com$</p>
+      <p>m3nah eh elklam ly fo2 dh awlan pt7dd pdaya we nhaia be el3lamten dol ^$</p>
+      <p>sanian pt2olo aktp 7rf capital ao small ao arkam ao - _ ps lazem 3lamet + m3naha 7rf wa7ed ao aktr</p>
+      <p>p3d kda p2olo lazem wa7ed mn tlata yahoo ao gmail ao hotmail</p>
+      <p>p3d kda \. 3mlna backslash 3ashan el dot leha dor lazem al8y eldor dh be elbackslash</p>
+      <p>lo el user pyktp rkm zi kda 333-333-333 p3d kol tlt arkam py3ml el 3lama de - ana 3ayez agpro yktp el3lama el
+        awola zi el tania <br>
+        y3ny lo ktp awel mra kda - yktp tany mra kda - ktp awel mra kda . yktp tany mra kda . 3asha t3ml kda pt3ml group
+        () we t7fzo <br>
+        \d{3}([-_.])\d{3}\1\d{3} .......... \1 de m3naha hna lazem ykon zi group rkm wa7ed pzpt
+      </p>
+      <p>/a{2}/ ..... de m3naha 7rfen a aw aktr laken a2l mn etnen false </p>
+      <p>/a{2,5}$/ de m3naha 2 true tlata true 4 true 5 true 6 false</p>
+      <p>3ayez ybtdy be 7rf capital we ynthy be 7rf capital</p>
+      <p>/^[A-Z].+[A-Z]$/ ..... 7l tany /^[A-Z].{1,}[A-Z]$/ </p>
+      <p>3ayez el use yktp age mn 1 le 80 .... ^([1-7][0-9]|80)$</p>
+      <p>3ayez el user yd5l rkm tlfon msry ybd2 be 002 ao myktbhash 3ady</p>
+      <p>^(002)?01(0|1|2|5)\d{8}$</p>
+      <p>ezai norpt el klam dh be eljavascript be function esmha test</p>
+      <hr>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------------ -->
+    <div>
+
+      <h1 style="text-align: center" id="angular"><mark>angular</mark></h1>
+      <ul>
+        <li><mark id="one">Mokdema</mark></li>
+        <li> awel 7aga pt7ml node js
+          3a4an nodejs feha npm ,,, el npm dh pnst5dmo 3a4an ne include ai 7aga mn pra zi bootstrap ao ai blugin</li>
+        <li>we ptft7 el <mark>node js command prompt</mark> 3a4an t7ml 7aga esmha <mark>cli</mark> tp3 angular we de
+          btnzlmra wa7da ps ptnzlha tany lo 8yrt el windows el cli ptsa3dk fe 7aga kter a7sn ma t3mlha be edk zi mslan
+          enk t3ml component</li>
+        <li> we enta pt7ml cli ptktp -g y3ny ykon glopal 3la ai project a7sn ma tnzl cli fe kol project gded be el shkl
+          dh <mark>npm install -g @angular/cli</mark></li>
+        <li>3a4an t3rf version angular <mark>ng version</mark></li>
+        <li>p3d kda ptft7 cmd we t3ml ng new name 3a4an tnzl project gded <mark>ng new my-first-project</mark></li>
+        <li>
+          <maek>ng</maek> m3naha ya angular a3mlely kaza
+        </li>
+        <li><mark>cd projectname</mark> lazem t3ml kda 3a4an yb2a el bath s7 m3naha change directory</li>
+        <li><mark>ng new --help</mark> aktp ai amr we gmpo --help hygplk el amr dh py3ml eh</li>
+        <li><mark>code .</mark> de m3naha aft7ly el project 3la visual studio code</li>
+        <li>3a4an a48l elproject 3la el motsf7 ng serve --open<br><mark> ng s --o </mark> we ynf3 prdo ng s -o</li>
+        <li>lo pt48l aktr mn application mynf34 kolhom 3la nfs el port ptft7 el project fe port gded kda <br><mark>ng s --port 2154 -o</mark>
+          ai arp3 arkam</li>
+        <li>fe folder esmo <mark>e2e</mark> dh khas b el testing</li>
+        <li> fe folder esmo <mark>node-modules</mark> dh feh kol el mktbat pta3et angular</li>
+        <li>lma tegy tp3t el project le 7d htp3t el project kolo ma3da node-modules 3a4an 7gmo kper<br>
+          typ el ragel ly enta p3tlo el project mn 8er node modules hyt3amel ezai mn 8ero <br>
+          hyktp <mark>npm install</mark>
+        </li>
+        <li><mark>component</mark></li>
+        <li> angular mt2sma component y3ny el home page 3opara 3n component el about 3opara 3n component we hakaza <br>
+          kol component ptcryto pykon leh tlt mlfat html,css,typescript<br>
+          kol component pykon leh <mark>sellector</mark> mslan esmo < home> we m4 hy4t8l el component dh ela lma tstd3y
+            el sellector dh <br>
+            lma std3y el elsellector hytshal we yt7t mkano code el html,css,ts<br></li>
+        <li> fe 7aga mohma awi esmha <mark> root component</mark> dh el ap pta3 kol el components ly mogoden<br>
+          component el root pykon leh mlf html,css,ts prdo >>>> mlf el html pta3 elroot ptstd3y fe kol el sellectors
+          pto3 el compoenet el tanyen<br>
+          component el root pykon leh sellector prdo esmo<br> <mark>app-root</mark><br></li>
+        <li>gowa folder el <mark>src</mark> pykon fe folder esmo <mark>app</mark> >>> app dh gowa kol el components</li>
+        <li>htla2y component el root esmo <mark>app.component.html</mark> we hakaza le ts we html<br></li>
+        <li>fe mlf esmo <mark>index.html</mark> gwa el src dh mpyt7tsh feh 8er el root sellector<br>
+          typ el selecotrs pto3 el components hyt7to fen ??>>>>> hyt7to fe mlf html pta3 el root component</li>
+        <li>lo 3ayz to2f el serve fe el cmd pt3ml <mark>control c </mark> mrten</li>
+
+        <li>ezai t3ml component gdeed <mark>ng g c comName --skipTests</mark> hyt3ml tlt mlfat we fe app.module hyt7p
+          esm elcomponent</li>
+        <li>le pnktp <mark>--skipTests</mark> 3a4an pyt3ml mlf rape3 khas be el testing dh m4 3ayzeno el t capital</li>
+        <li>fe mlf el ts pta3 el component htla2y esm el selector t7to fe html el root component lo 3ayz t3rdo</li>
+        <li>tol ma enta fe mr7let el deveploment lazem tkon 3amel serev fe el cmd</li>
+        <li>nftrd 3ndk component m4 htktp feh html,css kter we m4 3aez t3ml mlf html,css y3mlk <br>
+          masa7a 3al el fady t2dr tktp code html , css be el tre2a ly fe el sora de we prdo pnstkhdmha le el test</li>
+        <img src="images/kmr1.PNG">
+        <img src="images/kmr2.PNG">
+        <li><mark>app.module</mark></li>
+        <li>app.module dh ly pyder el project kolo awel array esmo <mark>declarations</mark> dh pyt7t feh asamy el
+          components kolha
+          we asamy el pipe we el directive
+          <br></li>
+        <li>tany array esmo <mark>imports</mark> pt7ot feh kol el 7agat ly enta 3mltlha import</li>
+        <li>array el <mark>proveders</mark> ms2ol 3n el serves ly el project pt3mlha</li>
+        <li>y3ne eh servise ??
+          el service de 7aga p7otha fe array el providers 3a4an kol el component y3rfo yt3amlo m3aha zi mlf el json kda
+        </li>
+        <li> fe array tany esmo <mark>bootstrab</mark> dh m4 bootstrab pta3 el css wa laken dh pta3 el root by default
+          pykon feh appcomponent laken enta momken t7ot ai compoenet enta 3amlo t2dr t7to fe elbootstrab<br>
+          awel 5twa t3mlha 3a4an t5ly component enta 3amlo hoa el root enk t7to fe el bootstrab we t4el ly kan mogod we
+          index.html t7ot feha sellector pta3 el root el gded<br>
+          m4 hn7tag n8yr el root ps de kan m3loma lazem tt2al<br></li>
+        <li><mark id="two">npm</mark></li>
+        <p>Bootstrap pt7tag jquery 3a4an tst5dmha ps m4 mn el best paractice est5dam jquery m3 angular</p>
+        <p>el 7l eh ?! enk tst5dm <mark>ng-bootstrap</mark></p>
+        <p>a3ml <mark>install ezai le ng-bootstrap</mark> tft7 el sf7a el rsmya pta3tha we tktp el amr dh </p>
+        <p><mark>npm install --save @ng-bootstrap/ng-bootstrap</mark></p>
+        <p>p3d kda t3mlha import fe app module</p>
+        <p><mark>import {NgbModule} from '@ng-bootstrap/ng-bootstrap';</mark></p>
+        <p>tp lo 3ayz t8yr fe style pta3 ai component mn bootstrap pt3ml inspect we t3rf esm el class we fe mlf el style
+          t3ml kda 3a4an t3rf tktns el class</p>
+        <p><mark>:host ::ng-deep .className { }</mark></p>
+        <li>loi 3ayez a7ml ai mktpa pktp >>>> npm install bootstrab --save >>> lo mktpt4 esm el esdar hynzl a5r esdar
+          3ayz esdar mo3yn ptktp @botstrabesm elesdar<br>
+          --save de mohma 3a4an yrpto fe mlf tany<br>
+          ai 7aga htnzlha be el npm htt7t fe el node module<br>
+          bootstrab py7tag jquery we popper fa anta htktp kda >>>>
+          <mark>npm install bootstrap jquery popper.js --save</mark><br>
+          enta kda nzlt bootstrap ps mrpt4 bootstrap<br>
+          td5ol 3la mlf <mark>angular.json</mark> htla2y array esmo <mark>styles</mark> dh trpot feh mlfat el css <br>
+          we array esmo <mark>scripts</mark> trpot feh mlfat el js <br>
+          ptrpot jquery popper bootstrap be eltrtep dh<br>
+          ai update py7sl fe mlf el angular.json lazem tow2f el mshro3 we tsh8lo tany control c mrten <br></li>
+        <li> m3loma mohma >>> dlo2yt fe ai class pykon 3ndk <mark>constructor</mark> we <mark>ngOnInit</mark> aktp el
+          code fe anho wa7ed fehom <br>
+          el constructor pytnfz apl ma code el html yzhr >>> ngOnInit pttnfz p3d ma code el html pyzhr<br>
+          fa lo 3ndk code 3ayzo ytnfz apl ma el html yt7ml aktpo fe el constructor <br>
+          we lo 3ndk code 3ayzo ytnfz p3d ma code el html yt7ml aktpo fe el ngOnInit</li>
+        <li> gowaa mlf el project gwa el src fe mlf esmo <mark>assest</mark> pt7ot feh elsor we elfontat<br>
+          tp 3ayz a3rd sora mn mlf el assest elmsar pykon kda ,,,<mark> assest/any.ay</mark></li>
+
+        <li id="build">ezai t3ml buildleel production <br>
+          fel mlf index.html fe el base apl el slash t3ml .
+          <mark>ng build --prod --aot</mark></li>
+
+      </ul>
+      <h1><mark id="three">type script</mark></h1>
+      <p>js dynamic type y3ny ai variable pyshel ai no3mn el datatype</p>
+      <p>ts static type y3ny kol variable pyshel no3 wa7ed mn el data type</p>
+      <p>typ wenta ptktp typescript we 3rft variable kda let x ; we mktptsh feh ai kyma kda hya5od type any we t2dr t8yr kymto kol shoia 3ady typ lo 7ddt no3o kda let x:string kda m4 ht2dr t8yer el type pta3o </p>
+      <p>leh pn7dd no3 ai 7aga zi el function ao el variable ao ai 7aga hoa drp msal wd7 el modo3 nftrd function pta5od fe el parameter object we get goa el function ktpt console.log(o.name) we get fe el  argument mktpt4 name hyzhrlk hy2plh 3ady we m4 hyzhrlk error fe el editor we http3 fe el console undefined ps ana m4 3ayz kda ana 3ayz a7dd no3 mn el awl 3a4an lo ktpt 7aga mokhtlfa 3n ly ana m7ddo my2plhash we yzhrly erro fa hna btegy faydet t7ded no3 kol 7aga fe el sora htod7 aktr</p>
+      <p>fe el sora ly gaia anta ktpt fe el argument 7aga m4 mogoda fe el function we et2plt 3ady lakn lo m7dd el no3 mn el awel we ktpt property m4 mogoda m4 hy2plha we hyzhrlk error</p>
+      <img src="images/7dd.PNG"><br>
+      <p>lkn fe el sora ly gaia m7dd no3 el parameter flo ktpt 7aga mokhtlfa m4 hy2plha</p>
+      <img src="images/7d.PNG"><br>
+      <p>typ name we from ly fe el sora ly fatet dol nftrd htsd5dmhom kol shoia htfdl tktphom met mra ??? 2alk l2 fe 7aga esmha interface htofrlk el modo3 dh htktp el interface we tdeha name we tst5dm el name dh pdl ma tktp name we from kol shoia mslan</p>
+      <p>pt3ml el interface ezai zi el sora ly gaia</p>
+      <img src="images/interfc.PNG"><br>
+      <p>el motsf7at m4 ptfhm ts lazem compiler angular ht3mlk compile mn nfsha</p>
+      sho8l el javascript hykon fe mlf el ts pta3 kol component ps hnktp type script goa el class<br>
+      lma p7p a3rf variable m4 p2ol let name = value l2 pykon kda name:datatype = value<br>
+      msal 3la kda >>> userName:string = "ahmed" >>>> userId:number = 25<br>
+      <p>ezai t3ml interface <mark>ng g i interfaceNAme</mark></p>
+      <p>e lazem t3ml import le el interface fe el component ly htst5dmha feh</p>w
+      <p>3lamet el estfham m3naha n el proprty de ekhtyarya y3ny momken yege object fady</p>
+      <img src="images/in.PNG">
+      <p>fe type script mn el afdl enk t7dd el type pta3 el variable 3a4an m4 kol shoia<br> t7dd no3 el variable 3mlo
+        7aga esmha interface we dh data type enta pt3mlo b el shkl dh</p>
+      <img src="images/interface.PNG"><br>
+      ezzai t3ml variable el value pta3to object ... x:object = {name:"ahmed",age:25} {{x.name}} tre2et 3rd el
+      object<br>
+      ezzai t3ml variable el value pta3to array of numbers .... x:numbers[] = [2,3,4] <br>
+      x:object[] m3naha array of object<br>
+      fe data type esmha any x:any >> pn3mlo lma nkon m4 3arfen nno3 el data type<br>
+
+      <h1><mark id="four">Binding</mark></h1>
+      fe arp3 toro2 le 3rd el data ly gaia mn variables<br>
+      <ol>
+        <li>interpolation{{}}</li>
+        <li>property binding (one way data binding)</li>
+        <li>two way data binding (ng-model)</li>
+        <li>event binding</li>
+      </ol>
+      lo 3ayez a3rd value el variable fe sf7et el html p3ml kda < h1> {{esm elvariable}} < /h1> ao tst3y function ao tgm3 rkmen<br>
+          we dh esmo <mark>interpolation</mark><br>
+          <p>kda enta 3rft ezai t3rd data gaia mn variable fe tag html<br> typ lo ht3rd fe attribute m4 tag yb2a kda
+            esmo binding</p>
+          <p>fe 7aga esmha <mark> property binding</mark> ly hya kda < img [src]="varnam"> ao kda < img bind-src="varnam"> ps el 4a2e3 el tre2a el awola
+          </p>
+          <p>laken lo attripute m4 propert yb2a hn3ml <mark>attribute binding</mark> kda </p>
+          <p>
+            < td [attr.colspan]="varname">
+              < /td>
+          </p>
+          <p>fe 7aga tania esmha <mark>class binding</mark> we de pdef class le el3onsor lo kemet el variable true
+            pytktp kda</p>
+          <p>
+            < p [class.clasNmae]="varname" > <br>
+              ao kda     < p [class]="{one:varName,two:!varName}" > m3naha def class esmo one fe 7alet variable varName be true we def class two fe 7alet varName be false de nfs tre2et ngClass we nfs el klam dh yntpk 3la el Style<br>
+                <p> we t2dr t2ol > 5 kda < p [class.clasNmae]="varname > 5" </p> <p>fe
+                7aga esmha <mark>style binding</mark> y3ny fe 7alet elshrt t7kk 7ot el style dh
+          </p>
+          <p>
+            < p [style.colormslan]='varname > 5 ? "green" : "black"' < /p> </p> <p>lo el style binding mn klmten ptst5dm
+              el camel case <br>
+              we m4 lazm tktp 4rt t2dr t7ot style 3ltol < p [style.colormslan]='varname' < /p>
+          </p>
+          <p><mark>event binding</mark></p>
+          <p> momken t3ml event goa el tag kda >>> < div (esm el event)="esm el function()">  <br>
+            ao kda  < div on-click="esm el function()"> ps el tre2a el awola aksr 4y03n <br>
+              msal 3lakda < div (click)="test()" we td5ol fe mlf ts t3ml function esmha test pt3rfha mn 8er klmet
+                fun<br>
+          </p>
+          <p>fe el <mark>event binding</mark> lo htmrr parameter event le el function lazem 3lamet dollar sign</p>
+          <p>
+            < p (click)="any($event)">
+              < /p> </p> <p>3ndk div goah button we anta 3amel event fe el div we el button<br>
+                ly goa hoa ly bytnfz el awel <br>
+                we enta 3aez el event pta3et el button ps hia ly ttnfz ptst5dm 7aga esmha <br>
+                stopPropagation() ezai ? < button (click)="any($event)">
+                  < /button> <br>
+                    any(e){e.stopPropagation()}
+          </p>
+          <p>lo 3aez tnfz function lma tdos 3la zorar mo3yn ao zoraren,, el7war dh leh 3laka be el event pta3et el
+            keybord we esmo <mark>event filter</mark></p>
+          <p>
+            < p (keyup.enter)="funname()">
+          </p>
+
+
+
+          fe 7aga esmha <mark>two way data binding</mark> y3ny lo ms7t 7aga mn el variable ysm3 fe el moke3 lo ms7t 7aga
+          mn el mok3 ysm3 fe el variable<br>
+          msal y3ny lo fe mot8er wa5ed kyma esmha ahmed we ana p3rd klmet ahmed 3aez lo ktpt fe input y8rly klmet ahmed
+          <br>
+          pyt3ml ezai el tow way data binding be 7aga esmha banan in a box<br>
+          <mark> [(ngModel)]="esm el variable"</mark> pst5dmha fe el form<br>
+          lazm t3mlha import fe app.module 3a4an t3rf tst5dmha <br>
+          <mark id="six">import {FormsModule} from "@angular/forms"</mark><br>
+          we tnzl t7otha fe array el import<br>
+          <p>ezai a7ot fe tag el html variable amsk peh eltag el7war dh esmo <mark>template variable</mark></p>
+          <p>
+            < input type="text" #userName (keyup.enter)="clickMe(userName)">
+          </p>
+          <p>el variable ly esmo #username dh enta 3rfto fe tag hoa kda masek el tag dh t2dr p2a tst5dmo fe aktr mn tag
+          </p>
+          <p id="view">p3d ma 7tet #anyname fe el tag a2dr a3rfo fe mlf el ts 3n tre2 <mark>@viewChild</mark> zi el
+            sorten</p>
+          <p>@viewChild() pta5od two parameter awel parameer ly hoa esm el id ly enta <br> 7ato fe tag el html tany
+            parameter {static:false}</p>
+          <p>we ptdy le view child esm 3a4an tnady 3leha py lo tp3t fe el console 3la kda hytp3lk object esmo ElementRef goa property esmha native elmenet native element de goaha el tag 3a4an kda pt7dd no3 el viewChild mn no3 elementRef we lma tnady pt2ol viewChildName.nativeElement</p>
+          <p>lo get tp3tha fe el constructor hydek error l2n el constructor pttnfz apl zhor tags el html</p>
+          <img src="images/vchild.PNG">
+          <img src="images/vichild.PNG">
+
+
+
+
+          <h1><mark id="five">Directive</mark> </h1>
+          <p>fe no3en mn el directive we kol no3 mnhom feh built in we custom awel no3 <mark> Structural Directives</mark> ly hoa
+            bybd2 be *ng zi *ngFor *ngIf <br>
+             we  tany no3 ly hoa <mark>Attribute Directives</mark> zi [ngStyle] [ngClass] we dh prdo fe mno custom y3ny enta t3mlo be nfsk</p>
+             <mark> Structural Directives:</mark>
+          <p>asamy el Structural Directives be tbd2 be <mark>ng</mark></p>
+          <p> <mark>*ngIf</mark> de lo rg3t true pt3ml display block le el element lo rg3t false ht3ml display none<br>
+            pttktp ezai >>> < h1 *ngIf="varName">
+              < /h1> </p> <p>we a2dr ast5dm not ly hya de ! < h1 *ngIf="!varName">
+                  < /h1> </p> <p>t2dr kman tst5dm else</p>
+          <p>
+            < h1 *ngIf="varName; else any">
+              < /h1> </p> <p>else de pytktp feha esm mot8yr template variable we lazm el variable dh ykon bey4aer 3la
+                ng-template <br>
+                ml7oza mohma ngIf lo be false betms7 el 3onsor mn el dom tmaman lo 3ayez t5feh lkn mytms7sh mn el dom est5dm <mark>[hidden]</mark> de lo el4rt et722 hy5tfy el 3onsor lkn hyfdl fe el dom <br>
+                < p [hidden]="test">xxxx < /p>
+          </p>
+          <img src="images/ngTemplate.PNG" alt="">
+          <p><mark>*ngFor</mark> de ptkrr 7aga mo3yna 3la ad items el array pta3k</p>
+          <p>3ayez mslan tkrr row fe table >>> f capital < tr *ngFor="let u of arrayName">{{u}}< /tr> </p> <p>fe 7aga fe
+                el *ngFor esmha index we de ptgplk el index pta3 el array ptt3ml kda</p>
+          <p>*ngFor="let cors of corses;let k = index"</p>
+          <p>3ndk 8er el index , first,last,even,odd y3ny el index frdy wlla zogy</p>
+
+          <mark>Attribute Directives :</mark>
+          <mark>style directive or ngStyle</mark>
+          <p>kona pnst5dm style binding 3a4an lo el shrt et722 ndef style mo3yn</p>
+          <p>ps de hn2dr n7ot tnsek wa7ed ps lo ana 3aez a7ot aktr mn tnsek pstkhdm ngstyle</p>
+          <img src="images/kmr3.PNG"><br>
+          <mark>ngClass</mark>
+          <p>nfs el klam 3la el class kona onstkhdm class binding 3a4an ndef class wa7ed fe 7alet tkok shrt</p>
+          <p>3a4an ndef aktr mn class hnstkhdm el tre2a de ... m3naha def el class dh li el variable test be true</p>
+          <img src="images/kmr4.PNG"><br>
+          <mark id="cudi"> custom Attribute Directives :</mark>
+          <p>3a4an t3ml directive gded <mark>ng g d name --skipTests</mark></p>
+          <p>dh 4kl el directive pt3ml implement le onInIt we pt3ml inject le ElementRef 3a4an t2dr tktns el 3onsor we t7dd enta 3ayz t3ml eh
+            fe eldirective we ptstd3eh fe ai component ptktp esm el directive fe el tag be el 4kl dh</p>
+          <img src="images/die.PNG" alt="">
+          <img src="images/attr.PNG" alt="">
+          <p>ps .style de leha 3laka be el dom we dh m4 best practice est5dam el dom pt3ml inject le 7aga esmha
+            render2 3a4an t2dr tst5dm el methods ly feh fe el directive renderer de goaha methods kter mn dmnha set style pta5od el 3onsor we style we el value</p>
+          <img src="images/render2.PNG" alt="">
+          <p>typ el color dh enta m4 3ayzo sapet 3ayz kol ma tstd3y el directive ykon el value ptt8yr yb2a tst5dm
+            fe el directive @Input we tmrr el esm mkan el color we tege fe el tag tktp esm el input kda
+            [inputName]="varName" ptktp be el tre2a de lo el value 3opara 3n mot8er fe el component lkn lo htktp
+            el kyma 3ltol yb22a kda inputName="red"</p>
+          <img src="images/input2.PNG" alt="">
+          <img src="images/input3.PNG" alt="">
+          <p>el input ly fe el directive lo wa5ed elias === nfs esm el directive lma tege tstd3y el directive
+            momken tstd3eh kda [directiveName]="varNameInComponent" my color ly fe el sora ly gaia dh gai mn el
+            component</p>
+          <img src="images/nfs.PNG" alt="">
+          <img src="images/nfs2.PNG" alt="">
+          <p>typ ly fat dh kolo ptmrr variable mn el directive we kemet el variable dh variable prdo mn el
+            component typ lo kymeet variable el component et8ert kda el directive m4 hy7s be el t8er 3a4an a5leh
+            y7s be el t8er a3ml function set zi el sora we a3ml button by8er kemet el mot8er 3a4an tt2kd en set
+            bt5ly el directive y7s beel t8er</p>
+          <img src="images/set.PNG" alt="">
+
+          <h1><mark id="seven">ng-content </mark></h1>
+          <h1><mark>ng-container</mark></h1>
+          <p>dlo2ty enta pt7ot selector el component fe html el app componenet</p>
+          <p>t2dr enk kol ma tstd3y component t3rd tags mokhtlfa</p>
+          <p>be el shkl dh < home-component>
+              < h1> test< /h1> < /home-component> </p> <p>ps laazem tegy fe html el home component we t3ml el tag dh
+          </p>
+          <p>
+            < ng-content select="h1"> </ ng-content>
+          </p>
+          <p><mark>ml7oza mohma</mark> kona pn3ml template variable fe el tag kda #Name we lma agy astlmo kont pstlmo be @viewChild typ el tag ly lessa kona pntklm 3no ly hoa ptktpo we enta ptstd3y el selector pta3 ng-content dh lo 7ttlo template variable m4 hynf3 tktnso be @viewChild fe 7aga tania esmha @ContentChild("varNam") anyName we grp a3rdha fe el console we yofdl t3rdha fe ngAfterContentInit 3a4an tdmn n kol el tags et3rdt </p>
+          <p>we t2dr t7ot fe el sellect esm tag ao esm class</p>
+          <p>lo 3aez tktns el text ps m4 el textbe el tag pta3ha htktpp fe selector el home component mslan</p>
+          <p>
+            < app-home><br>
+              < ng-container class="h2">any content mynf3sh hna tag html< /ng-container> <br>
+                  < /app-home> </p> <p>we tktp fe html el home component kda prdo < ng-content select=".h2"> </
+                      ng-content>
+          </p>
+          <p>kda enta mrrt tags mn el parent le el child</p>
+          <h1><mark id="eight">parent child input output</mark></h1>
+          <p>typ lo 3ayez amrr data mn ts el parent le child</p>
+          <p>el child pykon goa folder el folder dh hoa el parent</p>
+          <p>angular army 2al enk lma tstd3y selector fe component yb2a el component dh hoa el parent we el selector dh hoa el child</p>
+          <p>awel 7aga t3ml import le 7aga esmha Input el i capital we tnzl fe el class tstd3y function be el shkl dh
+            <mark>@Input() anyName</mark> el i caital prdo</p>
+          <p>we tegy fe html el parent fe selector el child t3ml property binding<br>
+            <mark>
+              < app-home [t7ot el asm ly gmp @Input fe ts el child]="esm el var ly 3ayz tmrro mn ts el parent">
+                < /app-home> </mark> </p> <p>a3rd p2a fe el home component fe ai tag html 3a4an tt2kd enk p3t data {{}}
+          </p>
+          <p>fe 7aga esmha <mark>alias</mark> dh pytktp goa el cosen we pykon string @Input('alias') we dh sapet m4
+            pytgher laken el asm ly gmp klmet Input dh ly pktpo fe tag el html</p>
+          <p>kda kona pnp3t data mn el parent le el child y3ny mn app compoenet le any component ezai p2a ap3t mn el
+            child le elparent</p>
+          <p>ly fatet kant input yb2a de output yb2a t3ml import le output o capital</p>
+
+          <p>p3d kda <mark>@Output() anyName = new EventEmitter()</mark> we t3ml import le<mark> EventEmitter</mark> fo2
+            fe el import gmp input we output</p>
+          <p>p3d kda fe tag html el home component mslan html event binding</p>
+          <p><mark>
+              < p(click)="do()">
+                < /p> </mark> </p> <p>p3d kda fe ts pta3 home compoenet tnfz el func de </p>
+          <p><mark>do(){this.anyName.emit(any data 5 rkm 5 mslan)}</p>
+          <p>we tege fe selector el home fe html el app component t3ml event</p>
+          <p> <mark>
+              < app-home (esm el var ly gmp @output)="done($event)">
+                < /app-home> </mark> </p> <p>done de functuoin pt3mlha fe ts el parent</p>
+          <p>done(e){console.log(e)}</p>
+          <p>kda enta mrrt data mn el child le el parent el data de ly hya rkm 5</p>
+
+          <h1><mark id="nine">routing</mark></h1>
+          <p>el tpe3y fe el moake3 ly m4 spa enk kol ma tdos 3la link fe elmoke3 el url fo2 pyt8er 3a4an enta ro7t 3la
+            path gded</p>
+          <p>laken fe el moake3 el spa enta 48al 3la sf7a wa7da mahma tdos 3la link el url hyfdl zi ma hoa fpn3ml url
+            whmy enk tdef klma mo3yna le el url kol ma tdos 3la link mo3yn</p>
+          <p>ai href pyt7t fe tag el a py5ly el mok3 y3ml reload 3a4an kda pnshel el href we a7na 48alen fe mok3 spa we
+            pnstkhdm <mark>routerLink=""</mark></p>
+          el routing dh y3ny selector wa7ed ly yzhr we el pa2y mo5tfy we tptdy tzhrhom ptre2a mo3yna<br>
+          3a4an t3ml routing fe 5twat pt3mlha >>> fe mlf esmo @angular gowah mlf esmo router<br>
+          htptdy t3ml import le el routing 3a4an y4t8l >>> import {RouterMoudule , Routes} from '@angular/router' we el
+          5twa de ptt3ml lo7dha lo dost yes fe el awl <br>
+          p3d kda tnzl fe array el import we tzod RouterModule.forRoot(esmelarray) we el 5twa de ptt3ml lo7dha lo dost
+          yes fe elawl <br>
+          p3d kda pt3ml const tsmeh ai 7aga we lazem t7dd el data type pta3tp ly hya Routes de data type angular ly
+          3mlaha <br>
+          el array dh ptkon array of objects el objects pyakhod two prpperties <br>
+          el array pytktp be el shkl dh >>> const anyName:Routes = [] we dh pyt3ml lo7do lo dost yes fe elpdaya hy3mlk
+          array fady we anta tmlah<br>
+          awel property fe el array esmha path we de m3naha lo el bath fe kaza a3ml kaza el path dh ly howa el url<br>
+          tany property esm el component we de m3naha lo el path feh klmet kaza ro7 le el component dh <br>
+          <mark>{path:"home",component:HomeComponent}</mark><br>
+          fa ana kda p2olo lo el url mogod fe klmet kaza aft7 el component el folany tp el user hy7ot klma fe el url
+          ezay?<br>
+          el awel ps fe sellector esmo <mark>
+            < router-outlet>
+              </router-outlet>
+          </mark> dh pt7to fe app.html kda anta pt2olo el routing hy7sl mkan el selector dh <br>
+          we ptege fe linkat el navbar t4el el href="#" we t7ot <mark>routerLink="/home"</mark> we de m3naha lma el user
+          ydos hna aktp fe el url /home<br>
+          3ayzen p2a n3ml component eftrady lma el user yft7 el moke3 ykon mfto7<br>
+          <mark>{path:"",redirectTo:"/home",pathMatch:"full"}</mark> >>> kda ana p2olo lo el path fady aft7 el home<br>
+          pathMatch y3ny lazem tp2a klmet home pzpt m4 home we zyada 3leha ai 7rf<br>
+          <mark>{path:"**",component:notfoundedComponent}</mark> m3naha lo el component fe ai 7aga 8er ly fo2 aft7
+          notfound component<br>
+          we ** de lazem tb2a fe el akhr khales<br>
+          fe 7aga esmha <mark>routerLinkActive="active"</mark> y3ny lma ados 3la ai link yt8yr lono t2dr kman mkan klmet active t7ot ai class tany we tnsko pra7tk ps fe 7aga kol ma td8t 3la ai link hyt8yr lono 3ady lakn el home hyfdl wa5ed el lon prdo leh py7sl kda 3a4n angular ptt4yk lo el path fe klmet localHost pt7ot 3la el home el class el active 3a4an kda pyfdl mogod fe el home mahma ndos 3la ai link tany tp 3lag dh eh ? enk t2olo mdef4 class active 3la el home ela lo mogod localHost fkt lkn lo gmp localHost ai klma tania mdf4 active 3la el home we dh pyt3ml 3n tre2 <mark>[routerLinkActiveOptions]="{exact:true}" </mark><br>
+
+          <img src="images/guid1.PNG">
+          <img src="images/guid2.PNG">
+
+
+
+          <h1><mark id="ten">routing parameter</mark></h1>
+          <p>el tpe3y ptktp routerLink kda typ lo htmrr variablepttktp kda [routerLink]</p>
+          <p>lo hmrr aktr mn 7aga p7otohm fe array beel shkl dh</p>
+          <p>[routerLink]="['/home',varname]"</p>
+          <p>lma tegy tmrr parameter lazem fe el path no2ten fo2 p3d aplha kda path:home/:id</p>
+          <p>3az tstlm el parameter l ymrrto fe el path fe component tan</p>
+          <p>hteg fe el component l htstlm feha el parameter we t3ml import le dh</p>
+          <p><mark>import {ActivatedRoute} from "@angular/router"</mark></p>
+          <p>p3d kda ptnzl takhod noskha t7otha fe el constructor we tkhleha private 3a4an t2dr tstkhdmha fe el class
+            kolo lo m3mlt4 private hykon mota7 fe el constructor ps</p>
+          <p>kda private _ActivatedRoute:ActivatedRoute</p>
+          <p>3a4an astlm el parameter pt2ol ... this._ActivatedRoute.params.subscripe(f =>console.log( this.now =
+            f["id"]))</p>
+
+          <p>tany no3 mn el parameter esmo <mark>query parametr</mark> pykon shklo kda fe el url ?paramName=value</p>
+          <p>el queery params optional y3ny lo ktpt fe el url mn 8er el query params el componenthytft7 3ady lkn el
+            params el 3adia egparya y3ny lo ktpt fe el url mn 8er el param m4 hytft7 el component</p>
+          <p>ezai nmrr query parameter </p>
+          <p>
+            < a routerLink="/profile" [queryParams]="{id:1}"> we t2dr tmrr aktr mn property fe el object dh
+          </p>
+          <p>type ezai astlm el queryparametr this._ActivatedRoute.queryParamMap.subscrib(f => console.log(f.get("id")))
+          </p>
+          <img src="images/show4.PNG">
+          <p><mark id="eleven">Routing Navigation</mark></p>
+          <p>ezai lma el user ydos submit le form mslan el button 3ml sumit we yro7 le comopnent tany</p>
+          <p>
+            < button (click)="goHome()">
+              < /button> </p> <p>we t3rf el fun de goHome() {}
+          </p>
+          <p>p3d kda pt3ml import le 7aga esmha router</p>
+          <p><mark> import {Router} from "@angular/router" </mark></p>
+          <p>we takhod noskha private _route:router</p>
+          <p>goHome() {this._router.navigate(["/home"])}</p>
+          <p>navigate de ptakhod array goah el msar</p>
+          <p>tp ezai ap3t query params {this._router.navigate(["/home"],{queryParams : {id:1}} )</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <h1><mark id="thirteen">simple project</mark></h1>
+          <p>mn el tnzem lma tege t3ml component enk t7ot kol el component fe folderwa7ed</p>
+          <p>ptt3ml kda ng s g foldername/componentname --skipTests</p>
+          <p>we kazalek fe el pips we el servises</p>
+          <p>fe ai object lo esm el property pysawy esm el value pta3tha aktp esm el property ps</p>
+          <p>kda {des,des2}</p>
+          <p>lo 3ayez kol ma y7sl relod tzhr el klma de loading.....</p>
+          <p>pt7ot el klma de fe < app-root>loading.....< /app-root> </p> <h1 id="title"><mark>title</mark></h1>
+                <p>ezai a8yr el title m3 kol t8eer le compoenet</p>
+                <p>pt3ml import le 7aga esmha title</p>
+                <p><mark>import {Title} from "@angular/platform-browser";</mark></p>
+                <p>p3d kda takhod noskha private </p>
+                <p>we goa el constructor this._title.setTittle("any title")</p>
+
+
+                <h1><mark id="twelvee">Lifecycle Hooks</mark></h1>
+                <p>Doret 7iat el component</p>
+                <p>ngOnit()</p>
+                <p>de function gahza angular pt2dmhalk pttnfz p3d function el constructor</p>
+                <p>mn el best paracitce en enta tst5dm constructor fe enk <br>takhod nos5 mn el 7agat ly pt3mlha import
+                  nos5a de esmha injection</p>
+                <p>fe function talta esmha <mark>onchanges</mark> lo 3ayz tst5dmha pt3mlha import fo2 gmp el onit el o
+                  capital Onchanges we ptnzl t7otha gmp el impliment</p>
+                <p>impliment onInit, Onchanges</p>
+                <p>we t3rfha kda ngOnChanges(changes) {console.log(changes)}</p>
+                <p>el function de ptakhod parameter we pttnfz m3 el t8yorat ly pt7sl fe el component</p>
+                <p>y3ny eh t8yorat y3ny el function de leha 3laka b input we output input we output kant pt3rd variable
+                  lo kemet el variable de et8yrt function on changes ttnfz</p>
+
+                <p><mark>ngDoCheck()</mark>
+                  lma ptkon 7atet variable fe ts we pt3rdo fe html 3n tre2 {{}}
+                  lo 8yrt kemet el variable dh el function de pttnfz , prdo lo pt3ml subscribe le observable el function
+                  de pttnfz l2no pytshk hl fe varibles kymtha et8yrt wla l2
+
+                </p>
+
+
+
+
+
+                <p><mark>ngAfterContentInit()</mark>
+                  we de leha 3laka be < ng-content slect="p">
+                    < /ng-content> awel ma el 3naser ly gaia be ng-content tt7ml el fun de ttnfz </p> <p>
+                      <mark>ngAfterViewInit()</mark>
+                      pttnfz p3d ma kol html el component yt7ml
+                </p>
+                <p><mark>ngOnDestroy</mark> de pttnfz p3d ma el component ytdmr <br>
+                  ytdmr bm3na zi mslan enta rapet zhoro p7dth mo3yn lo el 7ds dh m7slsh el component hy5tfy de m3na
+                  ytdmr
+                </p>
+                <p id="host"><mark>Host Listener</mark></p>
+                <p>dh event py7sl lma te click 3la el component pt7dd esm el event we esm el function we bt3ml import
+                  gmp onInIt</p>
+                <img src="images/hostLis.PNG" alt="">
+
+     
+               
+
+                <h1><mark id="pipe">Pipe</mark></h1>
+                <h1><mark>built in pipe</mark></h1>
+                <p>fe pipe gahez we pipe enta pt3mlo</p>
+                <p>t2dr tktp el pipe goa interpoation {{}}</p>
+                <p>fe uppercase we lowercase we dol m3rof mohmthom fe kman titlecase we de mohmtha capitalaize < p>
+                    {{variable | titlecase }} < /p> </p> <p>fe pipe esmo slice pyakhod etnen parameter py2t3 el string
+                      mn el pdaya we el nhaia ly enta pt7ddha </p>
+                <p>
+                  < p> {{var | slice : 2 : 5}} < /p> </p> <p>nftrd 3ndk variable kemto object m4 hynf3 t3rdo fe html
+                      3a4an html m4 pyt3rd feha 8er string <br>
+                      el pipe 3amla 7aga gahza pt7wl le string <br>
+                      < p>{{var | json}}< /p> </p> <p>fe pipe 5assa be el number < p>{{var | number}} < /p> </p> <p>dh
+                              wzefto y3rd tlt arkam ps mn p3d el 3lama el 3shrya we ly apl el 3lama el 3shrya py3ml fsla
+                              kol tlt arkam
+                </p>
+                <p>fe pipe le el data {{var | date}}</p>
+                <h1><mark>custom pipe</mark></h1>
+                <p>ezai p2a a3ml pip be edy <mark>ng g p --skipTests</mark></p>
+                <p>lo ast5dmt el pipe 3la array ao object we 7sl t8er fe el array ao el object <br>
+                  el pipe m4 hy7s b el t8yer a5leh y7s ezai fe mlf el pipe t7t el name ht3ml kda <br>
+                  <mark>pure:false</mark>
+
+                </p>
+<p>dh msal 3la pipe ptakhod array we trg3  el rkm el zogy ps</p>
+<img src="images/evenPipe.PNG" alt="">
+<img src="images/evenPipe2.PNG" alt="">
+                <h1><mark id="forms">Forms</mark></h1>
+                <p>fe no3en mn el forms ... reactive forms ,template driven</p>
+                <h1><mark>template driven</mark></h1>
+                <p>el no3 dh py2dmlk validation gahza</p>
+                <p>3a4an tst5dmo pt3ml import fe app.module</p>
+                <p><mark>import {FormsModule} from "@angular/forms";</mark></p>
+                <p>awel ma pt3ml form angular pt3ml object le el form de feh m3lomat 3n el form</p>
+<p>typ dlo2ty enta 3mlt form feha inputs 3ayz trpot ma pen el inputs we el object dh pt7ot 7agten fe el input name  3a4an tt3amel m3 el input dh p3d kda be el name dh we attr ngModel </p>
+<p><mark>< input name="any" ngModel></mark></p>
+<p>lma tege t3ml submit mtst5dm4 event submit 3a4an py3ml reoad le el sf7a est5dm event ly pt2dmo angular (ngSubmit) we 3a4an tmrr object el form we t4ofo fe el console a3ml mot8er kda be template variable we ykon be ysawy =ngForm 3a4an ytb3lk el object m4 tag el form nfso</p>
+<p>lo 3mlt mot8yr kda we khlas mn 8er ma t2ol #frm="ngForm" hytp3lk el form m4 el object</p>
+<p><mark> < form #frm="ngForm" (ngSubmit)="myFun(frm)"> </mark></p>
+
+<p>lma ttp3 el form fe el console htla2y object esmo controls feh el inputs pta3tk ly wakhda name we ngModel</p>
+<p>htla2y goa el object dh 7agat kter zi klmet errors de feha el error ly leh 3laka be el validation</p>
+<p>goa object el form htla2y property esmha valid we invalid pt2olk el form valid wlla l2</p>
+<p>fe property tania esmha value goaha object feh el inputs we value kol input</p>
+<p>fe classes angular ptdefha le el inputs 7sp 7altha t2dr tstfad beha fe el tnsek y3ny t3ml if condition mslan lo el input feh class invalid t3ml border a7mr we hakza </p>
+<p>ai  button fe el form py3ml submit typ lo 3ayz button mo3yn my3ml4 submit 5le el type pta3o button</p>
+<p>ezai t3ml validation ? hykon mn 5lal attributes pdefha le el tag</p>
+<p>awel attribute m3ana required y3ny el input dh mtlop</p>
+<p>typ enta 3mlt validation y3ny wared ysl 5t2 mn el user yb2a enta m7tag tzhrlo error fe 7alet el 5t2</p>
+<p>awel 7aga pt3mlha fe el input ptdelo mot8er 3a4an t3rf tnady 3leh we el mot8er dh ykon pysawy ngModel 3a4an trpoto be el object </p>
+<p>p3d kda feel paragraph pt3ml ngIf fe 7alet el toched we fe 7alet el erro tzhr resalet el error fe el sora ly gaia 3lamet el estfham m3naha en awel ma el sf7a ptft7 ptkon lesa m4 4ayfa el error fa pygplk error fe el consol fa 3lamet el estfham m3naha lo mogod a3ml kaza</p>
+<img src="images/driven.PNG" alt="">
+<p>tany validation klmet email ptt7t fe el input ka attribute </p>
+<p>lo 3mlt input type email we get t3ml submit hyzhrlk error laken e7na hna pn3ml submit be angular y3ny 7ta lo 3amel el type email m4 hyzhrlk error yb2a tst5dm validation angular ly hoa email</p>
+<p>el validation ly p3d kda ptktpo fe el input prdo minlength="6" y3ny a2l 3dd 7rof 6 we fe maxlength="6" 3ny aksa 7aga</p>
+<p>fe validation min="6" ao max="6" we dh 5as be input type number</p>
+<p>fe validation 3n tre2 klmet patteren="" dh pt3mlo be regular expresion</p>
+<p>t2dr kman t3ml default value tzhr le el user kda t7ot el ngModel fe cosen [ngModel]="'anyValue'"</p>
+<p>fe p3d el aw2at ht7tag t3ml mgmo3a mn el inputs fe group 3a4an ykon el group dh kolo 5as be no3 mo3yn mn el data n3ml el group dh ezai zi el sora ly gaia</p>
+<img src="images/group.PNG" alt="">
+ <h1><mark>reactive forms</mark></h1>
+                <p>ml7oza mohma ai button fe el form py3ml submit 7ta lo el type pta3o m4 submit<br>
+                  typ lo m4 3ayzo y3ml submit 5ly el type ptq3o button
+                </p>
+                <p>el no3 dh enta ly pt3ml el validation pnfsk</p>
+                awel 7aga fe app.module pt3ml import le module el form <br>
+                <mark style="font-size: 45px">import {ReactiveFormsModule} from "@angular/forms";</mark><br> we tnzl
+                t7to fe array el import<br>
+                <mark>form control</mark> y3ny input >>>> <mark>form group</mark> y3ny el form kolha el mfrod t3mlhom
+                import fe el sf7a ly feha el form <br>
+                <mark>import { FormGroup, FormControl } from '@angular/forms'</mark>;<br>
+                lazem t3ml new form group we t7otha fe variable we gowa new form control<br>
+                kda >> formName = new FormGroup() goa el kosen t3ml object kol property takhod new FormControl()<br>
+                awl 7aga fe formControl ly hia "" ao null de el default value <br>
+                <img src="images/show5.PNG">
+                <img src="images/show6.PNG"><br>
+                we ptegy fe tag el form t3ml<mark> [formGroup]="esm el var ly shael form group"</mark><br>
+                <p>[formGroup] dh pn7to 3a4an t2ol le angular enk 3ayz tst5dm reactive forms m4 template driven forms
+                </p>
+                3a4an trpot pen el input we el property pta3to pt3ml fe el input kda<br>
+                <mark>formControlName="esm el property ly fe el object"</mark><br>
+                fe event khas be el form esmo <mark>(ngsubmit)="funname()"</mark> y3ny lma ados submit nfz el function
+                de<br>
+                fe 7aga fe el form esmha <mark>controls</mark> de pt4el el inputs pta3et el form<br>
+                <mark>console.log(esm el form.controls.inputName.value)</mark> kda enta ptgep el value<br>
+                fe tre2a tania 3a4an a3rd el inputs<br>
+                <mark>console.log(esm el form.get('esm el input'))</mark><br>
+                <mark>validation:</mark> 2olna awel parameter fe el form constrol hoa el defallut value tany parameter hoa el validation soa2 kan built in ao custom validation <br>
+                validators.required ,,,  validators.email ,,,  validators.min() <br>
+                lo aktr mn validators 7otohom fe arrray <br>
+                lo 3ayez t3ml validation le el form lazem te import class dh validators fe el ts pta3 component el form
+                <mark>Validators</mark><br>
+                gmp el form group we el form controls<br>
+                pt3ml goa el alert *ngIf 3a4an lo fe error el alert yzhr\<br>
+                touched y3ny el input etlms wla l2<br>
+                ezai tmn3o ysubmit tol ma fe error [disabled]="formName.invalid" m3naha tol ma el form in valid 5ly el
+                button disabled<br>
+                typ lo 3ayez ast5dm regular exprsion goa el array ptktp Validators.pattren(/^[A-Z]/)<br>
+<p>fe p3d el a7ian ht7tag t3ml group mn el inputs 3a4an el data ly fehom leha 3laka be b3d a3ml group ezai el awel fe mlf el ts ht3ml goa el new formGroup new formGroup tania feha el inputs we fe el html ht7ot el inputs fe div wa5ed formGroupName="propertyName"</p>
+<img src="images/rGroup.PNG">
+<img src="images/rGroup2.PNG"><br>
+<p><mark>async pipe</mark></p>
+<p>el async pipe ht3mlk subscrib we lo 5rgt mn el component ht3ml unsubscripe tlka2y</p>
+<img src="images/asynk.PNG"><br>
+<p><mark>ml7ozat angular army</mark></p>
+<p>py2olk t2dr t3ml formControl mn 8er ai form variable 3ady nam=new FormControl()</p>
+<p>we a3ml input we binding < input type="text" [formControl]="nam"></p>
+<p>we t2dr t3rd el value fe html {{nam.value}}</p>
+<p>momken kman ttape3 el t8yorat ly 7slt fe value el input 3n tre2 el subscribe</p>
+<p>fe el constructor this.nam.valueChanges.subscribe(e => console.log(e))</p>
+<p>t2dr kman te set value le el input el function ly gaia httnfz lma tdght 3la button</p>
+<p>this.nam.setValue("hello world")</p>
+<p>p3d kda py2ol el fr2 ben formControl we formControlName n formControl de m4 mortpta be form enma formControlName mortpta be form m4 lo7dha kda</p>
+<p>ml7oza mohma 3la setVAlue ,,,, setVAlue lazem t7ot kyma le kol el value ly fe el form kda</p>
+<img src="images/setV.PNG"><br>
+<p>typ lo 3ayz t3ml t3del 3la goz2 mn el inputs m4 kolhom est5dm <mark>patchValue</mark></p>
+<img src="images/patch.PNG"><br>
+<p><mark>FormBuilder</mark></p>
+<p>fe syntax ashl shoia le el ReactiveForms esmha FormBuilder</p>
+<p>pt3mlha inject fe el constructor we zi el sora kda shla</p>
+<p>we pt3ml el validation 3ady lastName:["",validators.any]</p>
+<img src="images/bui.PNG"><br>
+<p>t2dr t3rd el status pta3et el form fe html {{formName.status}}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <h1><mark id="service">Service</mark></h1>
+                fe 7aga esmha servise y3ny 7aga mo3yna kol el component t2dr toslha pyt3ml kda >> <br><mark>ng g s
+                  servesName --skipTests</mark><br>
+                ezai arpot kol component be el service awel 7aga p3ml
+                <mark>imoprt {nameService} from "../name.service"</mark>
+                <br>
+                p3d kda pt3ml 7aga esmha <mark>Dependency injection</mark> we de ka el taly<br>
+                fe el constructor pt3ml nfs esm el servic ps aplha _ kda anta 3mlt noskha mn el class ly fe el service
+                <br>
+                kda >>> constructor (_nameService:nameServie)<br>
+                we pt7ot esm el service fe array el providers we t3ml import koldh fe app.modules<br>
+                goa el constructor lo 3ayez te acsses ai mot8yer lazem klmet this <<< we ai mot8yer pyt3rf khareg el
+                  constructor <br>
+                  tp lo 3ayez access property mn el service ,,, ana 3mlt nos5a yb2a hst5dm esm el noskha de goa el
+                  constructor be el shkl dh <br>
+                  _noskha.esm el property ly fe el service<br>
+                  el function ly ptktpha momkn t7d7 gmpha eh ly ht3mlo return we lo 3mlt return le 7aga mo5tlfa trg3
+                  error <br>
+                  <img src="images/capture17.PNG"><br>
+                  <h1><mark id="api">api</mark></h1>
+                  et3lmna ezai n3rd mlf json be el ajax 3ayzen n3rdo be angular <br>
+                  lazem t3mlo import fe mlf app.module >>><br>
+                  <mark style="font-size: 45px"> import {HttpClientModule} from "@angular/common/http";</mark><br> we
+                  tnzl t7otha fe array el import<br>
+                  we pt3ml service 3a4an t2dr t3rd mn mlf el json fe ai component <br>
+                  ptegy fe mlf el service t3ml import le class 3a4an t2dr t3ml 4o8l el ajax<br> <mark>import
+                    {HttpClient} from "@angular/common/http";</mark><br>
+                  we tnzl fe el constructor t3ml nos5a <br>
+                  <mark>constructor(public _HttpClient:HttpClient)</mark>
+                  <br>
+                  3a4an ai update y7sl fe mlf el json ysm3 3ndk lazem te import 7aga esmha observable<br>
+                  <mark>import {observable} from "rxjs";</mark>
+                  <br>
+                  p3d kda p3ml function el get <br>
+                  <div style="color:tomato;background:white">
+                    getMovies():Observable< any> { <br>
+                      return this._HttpClient.get("https://js.....") <br>
+                      } <br>
+                  </div>
+                  we htegy fe el home mslan<br>
+                  <mark> _MoviesService.getMovies().subscribe(e => console.log(e));</mark> subscribe de lazem takhod
+                  arrow function<br>
+                  .subscribe(e => {console.log(e)}) e dh parameter t2dr tsmeh ai 7aga shael mlf el json kolo<br>
+                  <mark>api methods</mark>
+                  <p><mark>get</mark> p3rd beha data gaia mn el api</p>
+                  <p><mark>put , post , patch</mark></p>
+                  <p>dol tlt toro2 le adafet odata le el api</p>
+                  <p><mark>put:</mark> pt7zf data ly mogoda we tdef el data ly enta p3tha</p>
+                  <p><mark>post:</mark> ptdef data 3la el data ly mogoda mn 8er ma t7zf 7aga</p>
+                  <p><mark>patch:</mark> pt3ml update 3la 7aga fe el data</p>
+                  <p><mark>delete:</mark> pms7 peha data data</p>
+                  <p>el sentacs pta3et post ao put ptkon kda </p>
+                  <p>function(){this._HttpClient.anyMethod("ApiURL",{el object ly enta htdefo})}</p>
+                  <p>el sentacs pta3et delete ptkon kda </p>
+                  <p>function(){this._HttpClient.delete("ApiURL")}</p>
+                  <h1><mark id="fire">firebase project</mark></h1>
+                  <p>el fire base de backend gahza pt2dmhalk google</p>
+                  <p>pt3ml install le el firebase</p>
+                  <p><mark>npm install --save firebase @angular/fire </mark></p>
+                  <p>fe moke3 firebase fe 7aga mktop 3lehaa us 5leha egypt</p>
+                  <p>fe mok3 el firebase tdos <mark>go to onsole </mark> p3d kda <mark>create project</mark> htdelo esm
+                    we tdos i igree l8ayet ma yzhrlk 3lamet <mark>
+                      <>
+                    </mark></p>
+                  <p>tdos 3lyha we takhod el object ly fe el config</p>
+                  <p>we t3ml import fe app.module</p>
+                  <p><mark>import {AngularFireModule} from "@angular/fire";</mark></p>
+                  <p>wetnzl t7otha fe array el imports we tktp zi elsora</p>
+                  <img src="images/base1.PNG">
+                  <img src="images/base2.PNG">
+                  <p>fe moke3 el firebase htla2y 3 elshmal klmet <mark>develop</mark> tdos 3leha p3d kda
+                    <mark>database</mark>
+                    <img src="images/base3.PNG">
+                    <p>htdos <mark>create database</mark> we t5tar test mode</p>
+                    <p>htptdy t3py mlf el json htdos <mark>start collection</mark></p>
+                    <p>collection dh t2dr t3tpro el array we kol object fe el array dh 3opara 3n <mark>document</mark>
+                      we dh pytkon mn <mark>field</mark></p>
+                    <p>p3d kda tmla el field pta3et el document kol field pykon le key we value zi el object pzpt</p>
+                    <p>type ezai a7ot fe el field images?? 3la el shmal t7t el database htla2y <mark>storage</mark>
+                      ht5zn el sor fe el storage de</p>
+                    <p>mn el storage htos 3la 3lametr ek za2ed 3a4an t3ml folder gded we p3d kda tdos <mark>upload
+                        folder</mark></p>
+                    <p>pta5of link el sora ly fe accsess toke .. file location we t7ot el link dh fe elfield</p>
+                    <p>3a4an tptdy tt3amel m3 el data ly gaia mn firbase pt3ml import le dh fe app.module</p>
+                    <p><mark>import {AngularFirestoreModule} from '@angular/fire/firestore';</mark></p>
+                    <p>p3d kda tege fe mlf el service pta3tk t3ml import</p>
+                    <p><mark>import {AngularFirestore} from '@angular/fire/firestore';</mark></p>
+                    <p>we t3ml injection private fe el constructor</p>
+                    <p><mark>private _AngularFirestore:AngularFirestore</mark></p>
+                    <p>p3d kda pt3ml function el get</p>
+                    <img src="images/base4.PNG">
+                    <p>ptro7 el component ly htstlm feh el data we t3ml inject le el service we tstd3y function el get
+                      we t3ml subscrib</p>
+                    <img src="images/base5.PNG">
+                    <p>el firebase 3amla unique id le kol product 3a4an tosl le el id dh m4 hynf3 be valuechanges() ly
+                      fe mlf el service lazm be el snapshotChanges()</p>
+                    <p>we estlam el data hyp2a be el shkl dh</p>
+                    <img src="images/base6.PNG">
+                    <p>enta pt3ml subscripe 3a4an tstlm el data we tra2ep ai update y7sl ps lma t2fl el component lazem
+                      t3ml unsubscripe be el shkl dh</p>
+                    <p>bt3ml import fe sf7et el ts ly pt3ml feha subscripe</p>
+                    <p><mark>import { Subscription } from 'rxjs';</mark></p>
+                    <img src="images/base7.PNG">
+                    <p><mark>sign up</mark></p>
+                    <p>3la el shmal khales fe moke3 firebase est5dmna database we storage dlo2ty hnstkhdm
+                      <mark>authentication</mark> we dh 5asa be el login we hakaza</p>
+                    <p>ad5ol 3la <mark>authentication</mark> p3d kda <mark>signin-method</mark>
+                      p3d kda t5ly <mark>email , password</mark> t5lehom enable we tdos save
+                    </p>
+                    <p>gmp signin-methods htla2y <mark>users</mark> we de feha kol el users pto3k</p>
+                    <p>fe app.module ht3ml import 3a4an t3rf tt3amel m3 el users</p>
+                    <p><mark>import {AngularFireAuthModule} from "@angular/fire/auth";</mark></p>
+                    <p>t3ml servivce 3a4an tecryt acconts le el users esmha auth</p>
+                    <p>fe el service pta3et el users pt3ml import we inject</p>
+                    <p><mark>import {AngularFireAuth } from '@angular/fire/auth' ;</mark></p>
+                    <p><mark>constructor(private _AngularFireAuth:AngularFireAuth)</mark></p>
+                    <p>fe el servive pt3ml el function ly htcryt el account pta3 el user</p>
+                    <p>el function de hta5od etnen parameter email we pass gayen mn component el sign up</p>
+                    <img src="images/base11.PNG">
+                    <p>fe el component pta3 el signup a3ml import le el service we ptkon 3amel function ptstd3y function
+                      mn el service we ptmrr el email we el pass</p>
+                    <p>ht3ml interface 3a4an t7dd el type pta3 eldata ly gaia mn el form we t3mlha import fe componenet
+                      el sign we hyb2a dh shkl el function l8aet dlo2ty</p>
+                    <img src="images/base8.PNG">
+                    <p><mark>then</mark> de pttnfz lo el function e4t8lt <mark>catch</mark>
+                      pt4t8l lo el error 7sl
+                    </p>
+                    <p>fe kaza error momken el user y3mlo zi mslan yktb email 8lt ao yd5l email most5dm be el f3l fa
+                      hnzhrlo alert be el error ezai ?!</p>
+                    <p>2olna catch pttnfz lma ykon fe error we el error pykon fe object fe property esmha messge</p>
+                    <p>fa enta ht3ml var fady we fe function el catch ht2olo el var el fady dh pysawy el messge zi el
+                      sora kda we fe el then ht2olo el var el fady yrg3 fady 3a4an y5tfy el error 3a4an m3na en hoa fe
+                      el then n mfesh error</p>
+                    <img src="images/base9.PNG">
+                    <img src="images/base10.PNG">
+                    <p>kda enta 2drt t5ly el users y3mlo accounts le nfsohom</p>
+                    <p>el mfrod dlo2ty t7fz el data ly rag3a mn kol account pta3 user t7fzha fe el firebase fe
+                      collection zi el goods fa ht3ml servive de tkon le kol user</p>
+                    <p>htegy fe el service pta3et el user we t3ml import we inject</p>
+                    <p><mark>import { AngularFirestore } from '@angular/fire/firestore';</mark></p>
+                    <p><mark>constructor(private _AngularFirestroe:AngularFirestore)</mark></p>
+                    <p>ht3ml function fe el service wzyftha tcryt collection fe el fire base t7fz feha el name we el
+                      address we el id hygolk mn signup component</p>
+                    <p>we fe signup component tp3tlo el parameter we t3ml eno p3d ma ycryt component y7sl navigation le
+                      el home</p>
+                    <img src="images/base12.PNG">
+                    <img src="images/base13.PNG">
+                    <p><mark>login,logout</mark></p>
+                    <p>kda el user khlas 3ml account 3ayez p2a ylogin</p>
+                    <p><mark>how to login with google</mark></p>
+                    <p>htft7 firebase td5ol 3la autuntucation tft7 signIn-method t5ly google enable</p>
+                    <p>ht3ml event click fe button we fe app module te import dh</p>
+                    <p><mark>import {AngularFireAuthModule} from "@angular/fire/auth";</mark></p>
+                    <p>we fe component el login te import dol</p>
+                    <p><mark>import {auth} from "firebase/app" ;</mark></p>
+                    <p><mark>import {AngularFireAuth } from '@angular/fire/auth' ;</mark></p>
+                    <p>we t3ml nos5a private fe el constructor mn AngularFireAuth</p>
+                    <p>we fe el function ly enta 3mltha fe tag el html tktp</p>
+                    <p><mark>this._AngularFireAuth.auth.signInWithRedirect(new auth.GoogleAuthProvider())</mark></p>
+                    <p>ezai t3ml logout tegy fe el servive ao el component t3ml import</p>
+                    <p><mark>import {AngularFireAuth } from '@angular/fire/auth' ;</mark></p>
+                    <p>we function el logout ka el taly</p>
+                    <p><mark> this._AngularFireAuth.auth.signOut()</mark></p>
+                    <p>tp ezzai tt2kd enta login wlla logout tegy fe el constructor tktp dh</p>
+                    <p>t3rf variable mn no3 <mark> user:Observable< firebase.User>
+                          < /firebase.User> </mark> </p> <p><mark> this.user = this._AngularFireAuth.user</mark></p>
+                    <p>fe elnav bt3ml el pipe async 3a4an y3ml subscribe and unsubscribe on distroy
+                      <p>we pt3ml secuurity 3la el routing petre2et kmr el promise</p>
+                    </p>
+                    <p>ezai t3rd esm el user fe elnav lma pt3ml subscribe el data ly rag3a 7otha fe variable we a3rd fe
+                      html data.displayName</p>
+                    <p>ezai t7fz el data fe el database</p>
+                    <p>pt3ml service el user we t3ml el function de we tstd3eha mn app component</p>
+                    <img src="images/rabe31.PNG">
+                    <img src="images/rabe32.PNG">
+                    <p><mark>how to login with your own email and password</mark></p>
+                    <p>htegy fe el service ly ptcryt el account ly esmha auth t3ml el fun de </p>
+                    <img src="images/base14.PNG">
+                    <p>we fe el component pta3 el login t33ml el fun de </p>
+                    <img src="images/base15.PNG">
+                    <p>el log out b2a ht3ml event binding fe button el log out fe el nav bar</p>
+                    <img src="images/base16.PNG">
+                    <img src="images/base17.PNG">
+                    <p>3ayz a3rf el user 3amel login wlla l2 3a4an lo 3amel login azhrlo button el logout we a5fy el
+                      login we el signup</p>
+                    <p>we lo m4 login azhr el login we el sign we a5fy el logout</p>
+                    <p>3a4an t3rf hoa login wlla l2 fe method esmha user htstd3eha mn el service ly esmha auth</p>
+                    <p>we fe ts el nav pp3t el id pta3 el user le service el auth 3a4an p3d kda ast5dm el id fe el cart
+                    </p>
+                    <img src="images/base18.PNG">
+                    <img src="images/base19.PNG">
+                    <img src="images/base20.PNG">
+                    <p><mark>add to cart functions</mark> kol el r8y ly gay hyp2a wade7 fe el images</p>
+                    <p>3ayez lma el user ydos 3la zorar el add to cart yzhr div goah input number we<br> button buy
+                      fh3ml mot8er pysawe -1 we lma ydos 3la add to cart -1 tsawy el index we<br> div el buy yzhr lma el
+                      mot8yer ysawy el index we button el add to cart <br>y5tfy lma el mot8yr !== index</p>
+                    <p>p3d kda button el buy lma ados 3leh hystd3y function mn service el cart ftro7 t3ml service le el
+                      cart</p>
+                    <p>fe service el cart ht3ml inject le service el auth 3a4an enta 7afez fe el auth el userId we t3ml
+                      inject fe service el cart le module el angular fire store 3a4an tcryt collection gdeda yt7t feha
+                      el products ly el user e4traha hn7ot el collection fe collection el user</p>
+                    <p>p3d kda takhod el data ly fe collection el product t3rdha fe component el cart</p>
+                    <p>p3d kda fe component el cart tstd3y el data de we t3rdha fe html component el cart</p>
+                    <img src="images/base202.PNG">
+                    <img src="images/base22.PNG">
+                    <img src="images/base23.PNG">
+                    <img src="images/base24.PNG">
+                    <p>leh pstd3y el id fe ts el cart 3a4an lma a3ml delete ao save a3mlo le el id pta3 el user</p>
+                    <p>hn4t8l dlo2ty 3la el delete el user 3ayz ydelete product mn el cart</p>
+                    <p>ht3ml function fe el ts pta3 el cart ptstd3y function el delete mn service el cart we tp3tlha el
+                      id </p>
+                    <p>we fe ts el cart t3ml function el delete</p>
+                    <p>we kzalek fe function el save pt3ml function fe ts el cart component tstd3y function el save mn
+                      service el cart we ptp3tlha el id we el amount ly hy7slo save</p>
+                    <p>htla2y fe el sor ly gaia function esmha summ de pt3rd total el products ly e4traha el client</p>
+                    <img src="images/base25.PNG">
+                    <img src="images/base26.PNG">
+                    <p><mark>dashboard</mark> </p>
+                    <p>dashboard ao sf7et el admin de sa7ep el moke3 py2dr mn khelalha ydef montgat fe el moke3</p>
+                    <p>pt3ml form ydef el admin feha esm el product we el price we yrf3 image</p>
+                    <p>we tp3t el 7agat de le function fe service el goods ly esmha 3ndk task</p>
+                    <p>we fe service el task ptrf3 el ora fe el storage el awel p3d kda tdef montg gded fe el database
+                    </p>
+                    <img src="images/base27.PNG">
+                    <p>dlo2ty 3a4an at3amel m3 el sora ly httrf3 lazem at3amel m3aha enha file type 3a4an a5leha file
+                      p3ml zi el sora</p>
+                    <img src="images/base28.PNG">
+                    <p>el sora ly el admin 3ayz yrf3ha 3ayz arf3ha fe el storage el awel pta3et firebase p3d kda arf3
+                      kol el data el sora we el price we el name fe el databse</p>
+                    <p>3a4an a2dr arf3 sora le el storage el firebase p3ml import fe app module</p>
+                    <p><mark>import {AngularFireStorageModule} from "@angular/fire/storage"</mark></p>
+                    <p>we t3ml inject le el module dh fe service el products</p>
+                    <p><mark>import {AngularFireStorage} from "@angular/fire/storage"</mark></p>
+                    <p>p3d ma rf3t el sora fe el storage 3ayz link el url pta3ha 3a4an a7fzo fe el database</p>
+                    <img src="images/base29.PNG">
+                    <p><mark>routing guard</mark></p>
+                    <p>dlo2ty lo 7d m4 user momken yktp fe el url ai 7aga td5lo 3la sf7at m4 pyd5olha ela el users 3a4an
+                      kda fe 7aga esmha routing gard</p>
+                    <p>ht3ml security le el component ezai htegy fe array el routing tzod property esmha
+                      <mark>canActivate:[serviceName]</mark> el value pta3tha 3opara 3n array el array de pta5od esm el
+                      service ly pyt3ml feha el security</p>
+                    <img src="images/base30.PNG">
+                    <p>we ptege fe el service gmp esm el service t3ml <mark>implements CanActivate</mark></p>
+                    <p>we t3ml function esmha <mark>canActivate</mark> pta5od etnen parameter zi el sora we ptreturn
+                      7aga mn el tlata zi el sora prdo we da5el el function t7dd el shrt ly lazem y7sl 3a4an el user
+                      y2dr yf7 el component</p>
+                    <img src="images/base31.PNG">
+                    <p>el 4rt fe 7altna de ly y5ly el user yft7 el component eno ykon login tp ezai a3rf eno 3amel login
+                      3n tre2 variable ana 3amlo fe serviceauth py3rfny el user login wlla l2 fa lazem a3ml inject le
+                      service auth</p>
+                    <p>el guard el tany eno myd5olsh 3la sf7et el login we el sign tol ma hoa user</p>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <div>
+      <p id="pug"><mark>Pug.js</mark></p>
+      <p>dh esmo <mark>Template Engine</mark></p>
+      <p>Install Pugjs And CLI</p>
+      <p><mark>htktp el awamer ly gaia kolha fe node.js command prompt</mark></p>
+      <p>aft7 mok3 pug 3a4an tgep el amr we tstp pug <mark>npm install pug</mark> </p>
+      <p>p3d kda t7ml pug cli ly goah el awamer pta3et pug zi watch <mark>npm install pug-cli -g</mark></p>
+      <p><mark>pug -V</mark> v capital 3a4an t3rf el vergion</p>
+      <p><mark>pug --help</mark> pygplk kol el awamer ly htsa3dk</p>
+      <p>ht3ml mlf index.pug</p>
+      <p>lazem t3ml watch 3a4an y7sl trgma mn pug le html</p>
+      <p><mark>pug msar -w -P</mark> el p capital awel ma t3ml watch hy3mlk mlf .html -p de m3naha tl3ly html 4klo ndef
+      </p>
+      <p>lo ktpt ! tap hy3mlk html , body , head lo7do</p>
+      <p>ai 7aga t7t p3d 3lan nfs el mostwa hykono sibling laken lo 5dt str le odam kda p2a child
+      </p>
+      <p>lo 3ayz t7ot text gwa pragraf mslan 5od msafa p3d el p kda ..... p any text</p>
+      <p>lo 3aezt3ml div goah a we goa el a img tpe3y htktp div we tdos enter we takhod msafa we tktp a we tdos enter we
+        takhod msafa we tktp img typ lo 3ayz tktp kol dh 3la str wa7ed </p>
+      <p>lo ktpt el tlata tags dol 3la str wa7ed hyftkr en a we img 3opara 3n text 3a4an t3rfo en dol tags t7ot : p3d el
+        tag kda div: a: img</p>
+      <p>lo 3ndk pragraph kper we 3ayz fe klma mno tktp span aw strong 3ady t2dr tktp tag strong fe mlf pug.js</p>
+      <p>3ayz t3ml copmment pt3mlo ptre2et javascript
+        //</p>
+      <p>type lo 3ayz el comment yzhr fe pug.js ps we myzhr4fe html hyp2a dh 4kl el comment <mark>//-</mark></p>
+      <p>3ayz t3ml multi line comment ptktp // we tnzl str gded we takhod msafa 3a4an yb2a child we nfsel el klam //-
+      </p>
+      <p>3ayz tktp p we tnzl str gded we takhod msafa we tktp text kda hy3tpro tag 3a4an y3tpro text t7ot aplo
+        <mark>|</mark></p>
+      <p>lo etnen tag laz2en fe p3d we3ayz tnzzl str gded a3ml defe str lo7dha |</p>
+      <p>ezai t3ml attributes le el tags <mark>div(id="sa", class="lddjh")</mark> lazem el () ykono laz2en fe el div</p>
+      <p>lo ktpt fe pug.js p.any hy3mlk p wakhed class any p#any hy3mlk p wa5ed id any typ lo 3mlt kda .any hy3mlk div
+        wa5ed class any typ lo 3ayz section ao ai tag wa5ed class section.any</p>
+      <p>el attributes lo kter t2dr t7ot msafat</p>
+      <p>3ndk mlyon sf7et html kda el mfrod fe el head pta3 el mlyon sf7a tktp kol linkat el style pta3et bootstrap we
+        font-awesome we hakaza
+        laken pugjs ptwfr 7aga esmha include </p>
+      <p>pt3ml folder tsmeh includes mslan we t3ml goah style.pug we tktp goa style.pug kol tags el link we fe el mlyon
+        sf7et htnml t3ml include fe el head kda <mark>include folderName/pugName</mark> we kzalek scripts.pug</p>
+      <p>nftrd 3ndk 5msen tag fehom class mo3yn lo 3ayz t8er el class dh mn el 5msen tag mra wa7da be tre2a 3mlya tst5dm
+        el variable ezai tktp el variable</p>
+      <p>- var className="any" <br>
+        div(class="className")
+      </p>
+      <p>lo 3ayz t7ot aktr mn class wa7ed gai mn variable we el tany 3ady <mark>div(class=`hello ${className}` )</mark>
+      </p>
+      <p>t2dr t7ot kol el variables pta3tk fe mlf we t3mlo include</p>
+      <p>el for loop lazem tkon dakhel el tag </p>
+      <p>pt3ml for be el 4kl dh we ahm 7aga el msafat</p>
+      <img src="images/pugFor.PNG" alt="">
+      <p>we t2dr ttp3 kemet el variable kda #{i}</p>
+      <p>type lo 3ayz t3ml loop 3la array hykon zi el sora ps lazem takhod msafa </p>
+      <img src="images/pugEach.PNG" alt="">
+      <p>t2dr t3rd el index p3d klmet val a3ml, we aktp ai esm we a3rdo hoa dh el index</p>
+      <p>t2dr t3ml else fe 7alet en el array fadia</p>
+      <img src="images/else.PNG" alt="">
+      <p>lo 3mlt mlf 5as be el mot8yrat a7sn ma kol shoia tktp el dash ly apl klmet var t2dr t3ml kda</p>
+      <img src="images/pugVar.PNG" alt="">
+      <p>3a4an t2dr tst5dm kemet el variable #{variablName}</p>
+      <p>lo fe variable enta 7atet kemto string kda "< strong </ strong>" hytp3 dh fe el motsf7 m4 hy3tpro tag 3a4an
+          y3tpro tag lma tege tstd3y el variable hykon be 3lamet el t3gop !{varName}</p>
+      <p>2olna 3a4an tstd3y variable pt3ml kda #{varName} typelo enta 3ayz tktp kda fe el motsf7 t3mlaplha backslash
+        \#{anytext} </p>
+      <p>ezai tktp tagwst el klam</p>
+      <img src="images/pugTag.PNG" alt="">
+      <p>mixen mgmo3et acaod 3ayz tstkhdmha fe aktr mn mkan</p>
+      <img src="images/pugMix.PNG" alt="">
+      <p>tp ezai astd3y el mixen <mark>+skils</mark></p>
+      <p>t2dr t7ot kol el mixin fe mlf we t3mlo include</p>
+      <p>Inheritance : el wrasa t2dr t3ml wrasa le sf7a kamla y3ny mslan 3ndk mlf index.html t2dr twrs kol ly feh fe mlf
+        about.html kda .... tktp fe sf7et about.bug extend index.pug hyns5lk kol ly fe el index fe about</p>
+      <p>typ enta 3ayz tns5 kol ly fe el index we 7aga mo3yna t3dl 3lyha zi el title ly fe el head ao el nav we el
+        footer ykono sapeten m3ak we t8er el mo7twa ly benhom yb2a el 7aga ly 3ayzha tt8er kol ma t3ml extend t7otha fe
+        <mark>block</mark></p>
+      <img src="images/pugBlock.PNG" alt=""><br>
+      <img src="images/pugBlocke.PNG" alt="">
+      <p>kda enta 3mlt extend wrasa y3ny we 3mlt t3del zi mnta 3ayz 3n tre2 el block</p>
+      <p>lma tstkhdm el block hy3ml replace le el 2dem we y7ot mkano el gded typ enta m4 3ayz t3ml replace enta 3ayz
+        tzod 3la el adem tst5dm append ao prepend</p>
+      <img src="images/pugAppend.PNG" alt="">
+    </div>
+
+    <div>
+      <p id="gulp"><mark>Gulpjs</mark></p>
+      <p>el 7agat ly enta ptkrrha dayman fe ai project gulp hy3mlhalk be nfso zi d8t el sor d8t mlfat el css we js</p>
+      <p>cmd.ex pyo2dy nfs wzefet node.js command prompt </p>
+      <p>4ewyet awamer:</p>
+      <p>node bynzl m3ah npm we dh be tinstall be 7agat mo3yna ruby bynzl m3ah gim we dh be tinstall beh 7agat mo3yna
+      </p>
+      <p><mark>node -v</mark> ygblk el version</p>
+      <p><mark>cls</mark> yms7lk el command line</p>
+      <p><mark>dir</mark> hygplk kol el foldrat ly fe el mlf ly enta wa2ef feh</p>
+      <p><mark>cd folderName</mark> kda pydkhol 3la folder mo3yn ekhtar le change directory</p>
+      <p><mark>mkdir anyName</mark> hy3mlk new folder e5tsar make directory</p>
+      <p><mark>chdir</mark> ekhtsar current directory pygblk el msra ly enta wa2ef 3leh</p>
+      <p>lo ktpt gulb -v we rd 3lek be is not recognized as an internal or external command yb2a de 7aga el command line
+        lessa m4 fahmha enta pts2lo 3n 7aga enta m4 3amlha download</p>
+      <p>htptdy t3ml folder gded le el project swa2 be edk ao be el command line</p>
+      <p>apl ma tpd2 el project pta3k pt3ml 7aga esmha Initialize we dh pyakhod mnk 4wet m3lomat 3n el m4ro3</p>
+      <p>3a4an t3ml Initialize et2kd el awel enk wa2ef 3la el msar el s7 lo m4 wa2ef s7 a3ml cd p3d kda <mark>npm
+          init</mark></p>
+      <p>awel ma tktp npm init hytlop mnk pianat aktpha zi package name we discription we author ai 7aga 8er dol dos
+        enter p3d kda hys2lk is this ok dos enter p3d kda eft7 el project htla2y mlf json nzl feh el pianat ly enta
+        ktptha</p>
+      <p>el 5twa ly p3d kda te install gulp <mark>npm i gulp -g</mark> i y3ny install -g y3ny glopal 3la el ghaz kolo
+      </p>
+      <p>kda gulp nzlt 3la ghazk 3a4an tt2kd <mark>gulp -v</mark> 3ayz enta p2a tnzlha fe el m4ro3 pta3k et2kd enk fe el
+        msar pta3 el m4ro3 p3d kda <mark>npm i --save-dev gulp</mark> awel ma t3ml kda htla2y packages nzlt fe m4ro3k
+      </p>
+      <p>htpd2 t3ml foldrat el m4ro3 a3ml floder le el project dh hykon feh mlfat el html we js we el css we el images
+        we kol 7aga apl ma ttzpt smeh project mslan we t3ml folder tany esmo dist mslan dh hykon feh kol 7aga p3d ma
+        ttzpt talt folder lazm ykon esmo <mark>gulpfile.js</mark> we dh ly pytktp feh el taskat ly enta 3ayz t3mlha</p>
+      <p>ai task pt3mlo py7tag tstd3y el mktpapta3to 3a4an tstd3y ai mktpa pykon 3n tre2 7aga esmha gulp <mark>var gulp
+          = require("gulp")</mark></p>
+      <p>p3d kda pt2ol gulp.task() we task de ptakhod esm el task ai esm we ptakhod function
+        we 3a4an tnfz el task ptktp fe el cmd gulp taskName Enter
+      </p>
+      <p>msal pset 3la task pset </p>
+      <img src="images/task.PNG" alt="">
+      <p>dlo2ty enta ptktp el tasks fe mlf gulpfile.js p3d kda ptn2l el mlfat ly 7sl 3leha el tasks mn folder project le
+        folder dist ezai p2a tn2l mn folder project le folder dist</p>
+      <p>ht2olo return gulp.src 3a4an t7dd el file ly ht3mlfeh el task p3d kda .pipe() we de feha el task nfso p3d ma
+        tktp el tasks ptn2l le mlf el dist be el pipe prdo <mark>.pipe(gulp.dest("fileName"))</mark> makan filename
+        hykon esm el file el nha2y</p>
+      <p>el msal ly gai dh pyn2l file index.html mn folder project le folder dist we tp3an mtnsa4 3a4an tnfz eltask tktp
+        fe el cmd gulp taskName</p>
+      <img src="images/copy.PNG" alt="">
+      <p>typ lo 3ndk aktr mn file html htktp fe el src <mark>project/*.html</mark> el * m3naha ai file.html</p>
+      <p>typ lo 3ndk mlfat html we css htktp <mark>project/*.*</mark> y3ny ai mlfwakhed emtdad en2lo</p>
+      <p>typ 3ayz tn2l foldrat mo3yna we tsep el pa2y <mark>["project/index.html","project/main.css"]</mark></p>
+      <p>typ 3ayz tn2l le mlf el dist ps fe folder feel dist <mark>.pipe(gulp.dest("dist/anyName"))</mark></p>
+      <p>ezai td8t mlfat el css fe file wahed we mlfat el js fe file wahed el awel tft7 moke3 gulp we tft7 tabet plugins
+        we tsersh 3n gulp-concat hygplk el amr dh tktpo fe el cmd <mark>npm install --save-dev gulp-concat</mark> 3ashan
+        t3ml download le el blgin ly pt3ml concat lma tktp el amr dh et2kd enk fe el msar pta3 el project pta3k we 3a4an
+        tt2kd enha nzlt eft7 package.json htla2y el plugin nzlt fe el devDependencies</p>
+      <p>htsttd3y el gulp-concat fe variable 3a4an t2dr tstkhdmha <mark>var concat = require("gulp-concat")</mark> p3d
+        kda t2olo .pipe(concat("main.css")) y3ny ed8tly kol mlfat css fe mlf wahed esmo main.css</p>
+      <img src="images/gulpCon.PNG" alt="">
+      <p>nfs el modo3 le mlfat js</p>
+      <img src="images/gulpJs.PNG" alt="">
+      <p>ezai t3ml el prefexes pta3et css3 el awel tnzl el plugin mn moke3 gulp <mark>npm install --save-dev
+          gulp-autoprefixer</mark></p>
+      <p>we ka el 3ada tstd3y el plugin fe variable p3d kda tstd3eha fe el task ht3ml el auto prefex p3d kda el concat
+        p3d kda el arsal le dist .... last two version etl8t ptt3ml dlo2ty enk tktp kda fe package.json</p>
+      <img src="images/jso.PNG" alt="">
+      <img src="images/gulpAuto.PNG" alt="">
+      <p>ezai t3ml compile le sass tgep el amr dh mn moke3 gulp <mark>npm install node-sass gulp-sass --save-dev</mark>
+        3a4an tnzl el plugin el mfrod fe folder el project ykon fe folder css goa el css file esmo main.scss we folder
+        esmo sass dh goah sass el footer we sass el nav we hakaza khly palk goa folder el sass ai file lazem yb2a fe
+        underschool el awel 3a4an my3mlk4 file tany .css _footer.scss fe el akher pt3ml include le kol el files ly fe
+        folder el sass t3mlha import fe file main.scss we lo 3ayz td8t file el sass ptktppen el cosen kda <mark>
+          .pipe(sass({outputStyle: 'compressed'}) )</mark> p3d kda pt3ml var le plugin gulp-sass we t3ml function el
+        compile we tkml</p>
+      <img src="images/import.PNG" alt="">
+      <img src="images/compSass.PNG" alt="">
+      <p>ezai t3ml compile le pug el awel t7ml el plugin <mark>npm install node-sass gulp-pug --save-dev</mark> pt7otha
+        fe variable ka el3ada we t3ml elfunction hy3mlk compile we ykon mlf md8ot lo m4 3ayz md8ot ptktp goa el cosen
+        {pretty:true}</p>
+      <img src="images/pretty.PNG" alt="">
+      <p>ht3ml localserver 3a4an t4of el output pta3 el project pta3k t3ml download el awel le el plugin de <mark>npm i
+          static-server --save</mark> ht3ml file esmo server.js gmp package.json we tktp feh el code ly fe el sora 3a4an
+        takhdo copy paste hykon mn mok3 gulp fe el rootpath fe el sora ly gaia pykon "./dist/" dist dh esm el folder el
+        nha2y</p>
+      <img src="images/sever.PNG" alt="">
+      <p>ezai t3ml watch 3a4an m4 kol 4wia t3ml run fe el command line</p>
+      <p>gulp.watch("src","taskName") we aplha ptstdy el server.js</p>
+      <p>aktp fe cmd gulp watch p3d kda grp a3ml save fe el file ly enta 3amlo watch htla2y zhr fe el cmd en 7sl el
+        watch</p>
+      <p>**/*.scss m3naha ai folder goah file emtdado scss a3ml 3leh watch</p>
+      <img src="images/serv.PNG" alt="">
+      <p>el code pta3k dlo2ty md8ot lo ft7t el inspect htla2eh md8ot 3a4an t7l el moshkla de a3ml download le el plugin
+        de <mark>npm i gulp-sourcemaps --save-dev</mark> ht7otha fe variable el awel ka el 3ada p3 kda pt3ml 7agten init
+        we dh pykon p3d el src 3ltol we p3d kda write we dh pykon apl el dest zi el sora ly gaia we pt7ot el no2ta de fe
+        el write 3a4an y3mlk mlf m4 md8ot gmp mlf el css dlo2ty lo ft7t el insbect we dost 3la el source htla2y el code
+        wade7 m4 md8ot</p>
+      <img src="images/src.PNG" alt="">
+      <p>3ayz td8t acad js p3d ma gm3thom fe file wa7ed download el awel le de
+        <mark>npm install --save-dev gulp-uglify</mark> we pt7otha fe variable ka el3ada we p3d kda tstd3y el functoion
+      </p>
+      <img src="images/uglify.PNG" alt="">
+      <p>3ayz tnfz task 3la mlfat mo3yna ma 3da wa7ed est5dm !</p>
+      <img src="images/not.PNG" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div id="ultimate">
+      <h1><mark>ultimate course</mark></h1>
+      <p>el structure pta3 el m4ro3</p>
+      <p>folder dist we dh elfolder el nha2y p3d d8t el acoad we hakaza</p>
+      <p>folder stage we dh el project apl el tzpet</p>
+      <p>folder stage goah css html js</p>
+      <p>folder css goah folder libraries el khas be el mktpat , folder sass we dhpt7ot fe acoad pttgm3 p3d kda fe file
+        main.scss</p>
+      <p>html goah folder pug we file .pug pynady 3la kol ly fe el folder dh</p>
+      <p>fe folder el m4ro3 aktp cmd 3a4an el command line yzhr we htpd2 tkryt project gulp gded</p>
+      <p>el awel pt3ml <mark>npm init</mark> we hna gulp pttlop m3lomat 3n el m4ro3 dos enter enter m4 lazem tmlaha</p>
+      <p>p3d kda tnzl plugins gulp fe m4ro3k <mark>npm i gulp@3.9.1 --save-dev</mark></p>
+      <p>a3ml file gulpfile.js pta3 el tasks</p>
+      <p>p3d kda nzl el plugins ly ht7tagha festr wa7ed 3ady</p>
+      <p><mark>npm i gulp-concat gulp-sass gulp-autoprefixer gulp-pug gulp-sourcemaps gulp-minify gulp-minify
+          --save-dev</mark></p>
+      <p>a3ml download le static-server 3a4an tgrp 4oghlk 3leh <mark>npm i static-server --save</mark></p>
+      <p>p3d kda a3ml file server.js zi course gulp pzpt ap2a arg3lo</p>
+      <p>a3ml awel task compile el pug p3d kda css , js , watch</p>
+      <p>aktp ai 7aga we a3ml save we aktp fecmd gulp watch 3a4an te test</p>
+      <p>lo 3mlt filegded a3ml watch mn gded</p>
+      <p>py3ml fe folder el sass folder esmo variables goah file feh variables el alwan mtnsa4 underschool apl esm file
+        el sass</p>
+      <p>py3ml homePage.pug fe folder el html we 2alk el side bar hytkrr fe kol el sf7at ra7 7ato fe folder el pug we
+        3mlo include fe homePage.pug</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div>
+
+
+      <h1 id="github"><mark>git,github</mark></h1>
+      <h1>the new baghdad</h1>
+      <p>ezai trf3 project 3la github</p>
+      <p>1- t3ml new repo mn mok3 github</p>
+      <p>2- click ymen 3la el folder ly htrf3o git bash here</p>
+      <p>3- tt2kd enk 3amel cd lemshro3k</p>
+      <p>4- git init ,,,, pttktp awl mra ps</p>
+      <p>5- git add *</p>
+      <p>6- git commit -m "any commnet"</p>
+      <p>7- git remote add origin repoLink</p>
+      <p>8- git push origin master</p>
+      <p>9- git -u push origin master ,,,, lo mrdesh ypush grp de</p>
+      <p>momken we enta pt3ml git init y2olk e3ml reintialzed tro7 katep kda rm -rf .git p3d kda git init tany</p>
+      <p>kda enta rf3t 3la gihub</p>
+      <p>nftrd enta 45s tany 3ayz t4t8l 3la nfs el project yb2a lazm tnzlo 3ndk el awl</p>
+      <p>new folder git ash gere ,, git cllone repo link</p>
+      <p>typ dft 7agawe 3ayz trf3ha html nfs el 5twat</p>
+      <p>git add *, git commit -m "any", git push origin master</p>
+      <p>7d daf t3delat we anta 3ayz el t3delat de tsm3 3ndk t3ml git pull origin master</p>
+    </div>
+    <div>
+      <h1 id="sass"><mark>sass</mark></h1>
+      <p>dh esmo <mark>preprocessor</mark></p>
+      <p>3a4an tktp sass m7tag 7aga t3mlk compile le css el 7aga de hya roby bt3mlha download</p>
+      <p>awel 7aga be teinstall sass</p>
+      <p>gem install sass</p>
+      <p>sass --watch msar mlf style.scss : msra mlf style.css</p>
+      <p>el fr2 pen sass we scss howa en sass m4 pt3ml dol {} pt3tmd 3la el msafat laken scss pt3ml dol {}</p>
+<p><mark>variables</mark></p>
+      <p>ezai t3ml variable fe sass ,,, $maincolor:red ,,, 3lamet el dolar esm el variable : value</p>
+
+      <p>p3d kda 3nk div mslan ht3ml kda .test{background:$maincolor}</p>
+      <p><mark>nesting</mark></p>
+      <p>dlo2ty anta 3ndk div esmo parent goa el parent 10 devat child1 , child2 we hakaza kont 3a4an awsl le kol child
+        pktp kda</p>
+      <p>.parent .child1 , ao .parent .child2 we hakaza kol shoia tktp parent 3a4an tosl le ai child goah laken fe sass
+        el wd3 a5tlf</p>
+      <p>enta htktp .parent mra wa7da we goaha el child pto3o zi el sora de kda </p>
+      <img src="images/capture18.PNG">
+      <p>typ pt3ml kda .parent { .child1{} } type lo 3ayez tnsk .parent nfso ht3ml kda .parent { background:red;
+        .child1{} } </p>
+      <p>kda background:red de 3ayda 3la .parent,,, lo get gmp.parent:hover we 3mlt hover kda enta pt2olo lma a3ml hover
+      </p>
+      <p>3la .parent 5ly .child1 y7slo kaza typ lo 3ayez lma ahover 3la .parent .parent hoa ly yt2sr m4 welado</p>
+      <p>.parent { &:hover{background:red} .child1{color:tomato } kda el & maska el parent we anta pt2olo lma ahover 3la
+        paren 8yr el bg</p>
+      <p>we fe nfs el w2t pt2olo a3mly .child1 lono tomato</p>
+      <p><mark>@extend</mark></p>
+      <p>fe 7aga esmha @extend y3ny hatly khoas el class dh 7tholy hna pytktp kda</p>
+      <p>.class1 {@extend .main} kda hygplk kol khoas main y7otha fe class1</p>
+      <p>t2dr t3ml multiable extend aktr mn extend</p>
+      <img src="images/multi.PNG" alt="">
+      <p><mark>placeholder</mark></p>
+      <p>etklmna 3n el extend enk momken te extend class typ lo el class dh m4 htst5dmo fe tags el html 5ales yb2a el a7sn tst5dm el placeholder y3ny pdl ma kont p3ml kda .main{color:red} section{@extend .main} ana m4 hst5dm class main dh 5ales fe html fa p3ml placeholder kda <br> 
+        <mark>%main {color:red} section{@extend %main}</mark> ptst5dm 3lamet %</p>
+     
+      <p><mark>@import</mark></p>
+      <p>lo el project kpeeeer pyt2sm le files kteeeer file le el variables we file le navBar we file le el header we hakza typ enta 3ayz t3ml import le file goa file tany y3ny mslan file el variables enta 3ayz t3mlo import fe file el footer pt3ml import kda <mark>@import "variables.scss";</mark> we momken kman tktp esm el file mn 8er scss ,,, ml7oza kman lo fe mlf enta 3amlo 3a4an t3mlo import ps  y3ny m4 m7tag t3mlo compile 5ly apl el esm pta3o under score 3a4an el _ de pt3rfo enk m4 3ayz t3ml compile dh mlf le el import fkt <mark>_variables.scss</mark> 3a4an my3mlk4 file css 3la el fady</p>
+      <p><mark>@mixin ,, @include</mark></p>
+      <p>el mixinde 3amla zi el function pta5od parameters we ptmrrlha arguments 3a4an lo fe 7aga kol mra pta5od kyma mokhtlfa zi el msal ly gay</p>
+      <img src="images/mixen.PNG">
+      <p><mark>loop</mark></p>
+      <p>3ndk .parent goa el .parent 6 child ezai t3ml for loop 3la el 6 child 3a4an tnfz 7aga mo3yna</p>
+      <img src="images/capture19.PNG">
+      <p><mark>if condition</mark></p>
+      <p>shkl el if condition fe sass</p>
+      <img src="images/capture20.PNG">
+      <p>fe 3mliat 7sapia momken tst5dmha kda >> font-size : $mainFont + 5 </p>
+
+      
+  
+      
+      <!-- ------------------------------ -->
+      <h1 id="army"><mark>Angular Army</mark></h1>
+      <p>ptnzl nodejs 3a4an t2dr tst5dm npm , npm pt2dr te download peh ai 7aga zi sass jquery angular cli</p>
+      <p>hytklm shoia 3n webpak 3ml folder fady we ft7o 3la visual studio we 3ml awl 5twa le tkwen project be webpack we el 5twa de <mark>npm init</mark></p>
+      <p>lma tdos npm init hy2olk aktp esm el application tktpo we afdl dos enter htla7z en et3ml folde esmo package.json feh m3lomat el project</p>
+      <img src="images/pacj.PNG"><br>
+      <p>eptda yktp <mark>npm i jquery</mark> fa zhr fe folder package.json 7aga esmha <mark>dependencies</mark> ra7 2alk el dependencies de kol el mokwnat ly ptkwn el project we de ptetl3 m3ana fe el folder el nha2y lakn <mark>development dependencies</mark> de 7agat ptsa3dny fe bna2 el project lakn m4 pttl3 m3aia fe el folder el nha2y zi mslan webpack</p>
+      <p>lma 3mlt install le jquery hyzhrlk mlf esmo package-lock dh el noskha el mfkoka mn el nos5a el md8ota ly hia package.json feha m3lomat tfsylia aktr mn package.json we lo package-lock etms7 t2dr tnzlo tany 3n tre2 <mark>npm i</mark></p>
+      <p>hyptdy ynzl webpack we yktp fe el command <mark>npm i webpack webpack-cli --save-dev</mark> zi ma lsa 2ayl --dev de pnktpha 3a4an el webpack m4 hytl3 m3aia fe el folder el nha2y</p>
+      <p>fe package.jso htla2y 7aga gdeda et3mlt esmha <mark>devDependencies</mark> de zi ma2olna 7agat m4 pttl3 m3aia fe el nhaia we hyzhrlk prdo node-modules el khasa be webpack</p>
+      <p>ebtda y3ml folder esmo src gowah two files js ktp function fe wahed we est3a el function fe el tany zhr error fe el console 3a4an trtep el mlfat 8lt lazm file estd3a2 el function ykon hoa ly t7t fa 2alk webpack hwa ly betwlla trtep el files we d8tha kolha fe file wahed</p>
+      <p>3ml p3d kda sf7a 5asa be webpack <mark>webpack.config.js</mark> ktp feha hyst2pl code el js mslan mnen we hyd8to fe el a5r fen</p>
+      <p>ptktp fe webpack.config.js ptktp feha el entry ly hoa el mlf ly ht2ra mno we el output ly howa el file el nha2y we tktp fe tag el script fe sf7et html esm el file el nha2y we ptrpot acoad el js be b3dha 3n tre2 import we export we fe el akhr kolhom pytd8t0 fe file wahed</p>
+    </div>
+
+  </div>
+ 
+
+
+  <script>
+     document.body.onscroll = function() {
+let up = document.getElementById("up")
+  if (document.documentElement.scrollTop > 5000)  up.classList.remove("unvis")
+  else  up.classList.add("unvis")
+     }
+     up.onclick = function() {
+       document.documentElement.scrollTop = 0
+     }
+
+
+
+  </script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

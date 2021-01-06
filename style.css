@@ -1,0 +1,84 @@
+
+/*
+*{font-weight: bold;margin:0;padding:0}
+nav{background:gray}
+.container{max-width:90%;margin:auto;}
+ul{list-style:none;}
+.d-flex{display:flex;flex-wrap: wrap} 
+.justify-content-between{justify-content: space-between} 
+.align-items-center{align-items: center}
+.del{background: red;color:white;padding: 10px}
+.w-50{width: 30%;margin-right: 3%;margin-bottom: 20px}
+.test > div{width:50%;background: red;height:100px}
+textarea{display: block;border:none;width:100%;background:yellow;resize: none;padding:10px} p{display: inline-block}
+[type="search"]
+{
+    margin: 10px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 5px;
+
+}
+/*
+p,ul{margin-bottom:0}
+body{background:gray}
+.acordion .plus{
+    background:tomato;
+    color:white;
+    transition: background-color .5s
+}
+.acordion .plus:hover {
+background:black;
+color:white
+}
+.acordion .content{
+    background:white;
+    transition: height .5s;
+    height:0;
+    overflow: hidden
+}
+.brdr{
+    height: 10px;
+    background: black;
+    width: 10%;
+    margin: 50px auto;
+}
+.acordion .show:after {
+    content: '+';
+    font-size: 20px;
+ 
+  }
+  .acordion .active:after{
+    content: '-';
+    font-size: 20px;
+ 
+  }
+/*  ennd ex 1 */
+/*
+.tabs ul{background:white}
+.tabs li {padding:10px;}
+.tabs .active{background:tomato}
+.tabs .content > div {
+    background:white
+}
+.tabs .content > div:not(:first-of-type) {display: none}
+.tabs .content p , .tabs .content h2{padding:10px}
+
+/*  ennd ex 2 */
+/*
+.header .content{text-align: center;padding:50px;color:white}
+.header .content:not(:first-of-type) {
+    display:none
+}
+.header li{text-align: center;background:white}
+/*  ennd ex 3 */
+/*.searchh li{padding-bottom: 10px}
+/*  ennd ex 4 */
+/*
+.drop:hover .dro
+{
+display:block !important
+}
+*/
+

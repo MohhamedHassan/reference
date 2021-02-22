@@ -11,6 +11,9 @@
 
 </head>
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
   li {
     margin-bottom: 100px
   }
@@ -46,8 +49,9 @@
   }
 </style>
 
-<body>
 
+
+<body>
 
 
 
@@ -69,10 +73,11 @@
     <h1><a href="#github">Github</a></h1>
     <h1><a href="#angular">Angular</a></h1>
    <h1><a href="#army">Angular Army</a></h1>
+   <h1><a href="#rxjs">RXJS </a></h1>
     </div>
     <div class="nav">
       <a href="#one">Mokdema</a>
-      <a href="#two">install bootstrap and ng-bootstrap</a>
+      <a href="#two">install bootstrap and ng-bootstrap and fontAwesome and ngxToastr</a>
       <a href="#three">type script</a>
       <a href="#four">binding</a>
       <a href="#view">viewChild</a>
@@ -92,6 +97,7 @@
       <a href="#forms">forms</a>
       <a href="#service">service</a>
       <a href="#api">api</a>
+      <a href="#interc">interceptors</a>
       <a href="#build">Build Production</a>
       <a href="#fire">firebase project</a>
 
@@ -885,6 +891,17 @@
           we array esmo <mark>scripts</mark> trpot feh mlfat el js <br>
           ptrpot jquery popper bootstrap be eltrtep dh<br>
           ai update py7sl fe mlf el angular.json lazem tow2f el mshro3 we tsh8lo tany control c mrten <br></li>
+          <li><mark>font awesome</mark> <br>
+           <mark>npm install --save @fortawesome/fontawesome-free</mark> <br>
+           we fe el style <mark>"node_modules/@fortawesome/fontawesome-free/css/all.min.css",</mark>
+
+          </li>
+          <li><mark>ngxToaster</mark> <br>
+            tre2et el est5dam mogoda fe el documentation <br>
+            faydtha ptzhrlk alerts <br>
+             download <mark>npm i ngx-toastr</mark>
+             
+          </li>
         <li> m3loma mohma >>> dlo2yt fe ai class pykon 3ndk <mark>constructor</mark> we <mark>ngOnInit</mark> aktp el
           code fe anho wa7ed fehom <br>
           el constructor pytnfz apl ma code el html yzhr >>> ngOnInit pttnfz p3d ma code el html pyzhr<br>
@@ -1198,9 +1215,34 @@
           <p>goHome() {this._router.navigate(["/home"])}</p>
           <p>navigate de ptakhod array goah el msar</p>
           <p>tp ezai ap3t query params {this._router.navigate(["/home"],{queryParams : {id:1}} )</p>
-
-
-
+       <h2><mark>ml7ozat mohma 3la el routing</mark></h2>
+       <p>el mfrod pt2sm el app pta3k le modules lazm kol module t3ml feh import le <mark>RouterModule</mark></p>
+       <p>lo 3ndk compoenet parent we htstd3y feh router-outlet 3a4an tstd3y children tanyen yb2a array el routing pyb2a kda el object pyakhod property zyada esmha children</p>
+       <img src="images/children.PNG"  alt=""> <br>
+      <p><mark>named outlet</mark></p>
+     <p>t2dr tst5dm aktr mn routerOutlet fe el sf7a el wa7da lkn el tany lazm yakhod name el awel pyakhod default name esmo primary we ptptdy t7dd fe arra el routing emta yt4al el tag pta3 router-outlet we yt7t mkano component tany be el tre2a de</p>
+     <img src="images/namedOutlet.PNG"  alt=""> <br>
+      <p>tp ezai tktp fe el url 7aga mo3yna we t2ol fe array el routing lo l2et el 7aga de ro7 le el component dh hyb2a be el shkl dh</p>
+      <img src="images/namedOutlet2.PNG"  alt=""> <br>
+<p>type lo 3ayez tt7km fe el named outLet we el priimary outLet</p>
+<img src="images/namedOutlet3.PNG"  alt=""> <br>
+<p><mark>routing guard</mark></p>
+<p>el guard pyt3ml 3a4an emta tdy sla7ya le el user eno yft7 el component we emta l2</p>
+<p>ptkon ser service 3adia y2ma ptrg3 true ao false</p>
+<p>awel no3 mn el guards hoa <mark>canActivate</mark></p>
+<p>pt3ml service 3adia we implement le canActivate we kman t3ml method canActivate</p>
+<p>method canActivate feha etnen parametres t2dr tst5dm el data ly fehom pra7tk</p>
+<img src="images/guardOne.PNG"  alt=""> <br>
+<img src="images/guardTwo.PNG"  alt=""> <br>
+<p>tany 7aga fe el guards <mark>canActivateChild</mark></p>
+<p>nfs kol 7aga pt3ml service be t implement canActivateChild we t3ml method canActivateChild we treturn true ao false 7sp mzagk we pt7otha fe array el routing</p>
+<img src="images/guardThree.PNG"  alt=""> <br>
+<img src="images/guardFour.PNG"  alt=""> <br>
+<p>talt 7aga fe el guards <mark>canDeactivate</mark> </p>
+<p>we de ptmn3 5rog el user mn el componenet la p3d t7kok 4rt mo3yn</p>
+<p>pt3ml impement le canDeactivate we lazm t7dd el componenet gmp el implement p3d kda t3ml function el canDeactivate ptreturn true ao false we t7ot el guard fe appRouting</p>
+<img src="images/deAct.PNG"  alt=""> <br>
+<img src="images/deAct1.PNG"  alt=""> <br>
 
 
 
@@ -1325,7 +1367,7 @@
 <p>el validation ly p3d kda ptktpo fe el input prdo minlength="6" y3ny a2l 3dd 7rof 6 we fe maxlength="6" 3ny aksa 7aga</p>
 <p>fe validation min="6" ao max="6" we dh 5as be input type number</p>
 <p>fe validation 3n tre2 klmet patteren="" dh pt3mlo be regular expresion</p>
-<p>t2dr kman t3ml default value tzhr le el user kda t7ot el ngModel fe cosen [ngModel]="'anyValue'"</p>
+<p>t2dr kman t3ml default value tzhr le el user kda t7ot el ngModel fe cosen [ngModel]=" 'anyValue' "</p>
 <p>fe p3d el aw2at ht7tag t3ml mgmo3a mn el inputs fe group 3a4an ykon el group dh kolo 5as be no3 mo3yn mn el data n3ml el group dh ezai zi el sora ly gaia</p>
 <img src="images/group.PNG" alt="">
  <h1><mark>reactive forms</mark></h1>
@@ -1439,6 +1481,8 @@
                   3a4an ai update y7sl fe mlf el json ysm3 3ndk lazem te import 7aga esmha observable<br>
                   <mark>import {observable} from "rxjs";</mark>
                   <br>
+                  <p>fe goz2 mn el api url pykon sapet we goz2 pyt8yer pdl ma tfdl tktp el goz2 el saapet kol shoia htktpo fe folder el environment dh pyt7t feh ai 7aga glopal be el shkl dh</p>
+                  <img src="images/glo.PNG"><br>
                   p3d kda p3ml function el get <br>
                   <div style="color:tomato;background:white">
                     getMovies():Observable< any> { <br>
@@ -1461,6 +1505,25 @@
                   <p>function(){this._HttpClient.anyMethod("ApiURL",{el object ly enta htdefo})}</p>
                   <p>el sentacs pta3et delete ptkon kda </p>
                   <p>function(){this._HttpClient.delete("ApiURL")}</p>
+                  <h1 id="interc"><mark>interceptors</mark></h1>
+                  <p>tany parameter fe function el get t2dr tp3t ai 7aga fe el header pta3 el api be el shkl dh </p>
+                  <img src="images/header.PNG"><br>
+                  <p>tp lo kol shoia ht3ml requist le el server we kol mra htp3t 7aga fe el header m4 htkrr el 3mlia de kol mra 3a4an kda e5tr3o 7aga esmha <mark>interceptors</mark> ptsa3dk en kol ma y7sl request t3ml fe el api ly enta 3ayzo zi mslan tp3t 7aga fe el header don el 7aga le tkrar ersal 7aga fe el header jol shoia</p>
+                  <p>ht3ml el interceptor kda <mark>ng g interceptor anyName</mark> we hykon dh shklha </p>
+                  <img src="images/interceptor.PNG"><br>
+                  <p>zi mnta shaef fe method el method de ly ptp3t ai 7aga m3 el request zi 7aga fe el header mslan</p>
+                  <p>fe etnen parameter el awl hoa el tlp ly enta htp3to le el server we el tany el tlp p3d ma tdef el adfat pta3tk</p>
+                  <p>awel param lazm takhod mno noskha 3a4an t2dr tp3t ai 7aga fe el api ptakhod noskha be method clone p3d kda tstkhdm el parameter el tany be method handle 3a4an tp3t el adfat de</p>
+                  <img src="images/next.PNG"><br>
+                 <p>type t5ly el interceptor y4t8l ezi ? fe app module fe array providers pt3ml el object dh awel property ly hia provide we tany property ly hia useClass dol m3nahom lma y7sl request le el api est5dm el interceptor de</p>
+                 <img src="images/provi.PNG"><br>
+
+
+
+
+
+
+
                   <h1><mark id="fire">firebase project</mark></h1>
                   <p>el fire base de backend gahza pt2dmhalk google</p>
                   <p>pt3ml install le el firebase</p>
@@ -2013,8 +2076,11 @@
     </div>
 
   </div>
- 
+  <h1 id="rxjs"><mark>RXJS</mark></h1>
+  <p>el function Synchronous y3ny lazm el aola t5ls 3a4an el tania tpd2 el observable asynchronous y3ny 8er motzamen</p>
+<div>
 
+</div>
 
   <script>
      document.body.onscroll = function() {

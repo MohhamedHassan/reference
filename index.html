@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿ <!DOCTYPE html>
 <html>
 
 <head>
@@ -10,7 +10,7 @@
 
 
 </head>
-<style>
+ <style>
   html {
     scroll-behavior: smooth;
   }
@@ -47,9 +47,7 @@
   .unvis {
     visibility: hidden;
   }
-</style>
-
-
+</style> 
 
 <body>
 
@@ -63,6 +61,7 @@
   <div  class="cont">
 
     <div class="modify">
+      <h1><a href="#master">KMR CS Master</a></h1>
       <h1><a href="#script">JAVASCRIPT</a></h1>
       <h1><a href="#es6">ES6</a></h1>
       <h1><a href="#oop">js oop</a></h1>
@@ -96,7 +95,7 @@
       <a href="#pipe">pipe</a>
       <a href="#forms">forms</a>
       <a href="#service">service</a>
-      <a href="#api">api</a>
+      <a href="#api">Http</a>
       <a href="#interc">interceptors</a>
       <a href="#build">Build Production</a>
       <a href="#fire">firebase project</a>
@@ -1243,14 +1242,19 @@
 <p>pt3ml impement le canDeactivate we lazm t7dd el componenet gmp el implement p3d kda t3ml function el canDeactivate ptreturn true ao false we t7ot el guard fe appRouting</p>
 <img src="images/deAct.PNG"  alt=""> <br>
 <img src="images/deAct1.PNG"  alt=""> <br>
-
-
-
-
-
-
-
-
+<p><mark>Resolver</mark></p>
+<p>el resolver dh m3mol 3a4an el componenet mytft7sh la lma el data tege mn el serfer 3a4an my7sl4 ai error</p>
+<p>pt2dr t3ml be el cli 3ady <mark>ng g resolver resolverName</mark></p>
+<p>we dh msal 3la el rsolver we ezai trpto be array el routing</p>
+<img src="images/resolver1.PNG"  alt=""> <br>
+<img src="images/resolver.PNG"  alt=""> <br>
+<p><mark>LazyLoadin</mark></p>
+<p>lma el site pytft7 pytm t7mel kol el application a7na hn2sm el app modules p7es lma ytft7 el site componenets mo3yna hya ly tt7ml we pa2y el modules tt7ml lma el user ynady 3leha</p>
+<p>htptdy t3ml module we ykon m3ah el routing el 5as beh</p>
+<p><mark>ng g m --routing</mark></p>
+<p>we fe app routing module t2olo lo el path be kaza 7ml el module el folany be e; syntax de</p>
+<p><mark>{path:'test',loadChildren: () => import("src/app/styudin/styudin.module").then(m => m.StyudinModule)}</mark></p>
+<img src="images/lazy.PNG"  alt=""> <br>
 
 
           <h1><mark id="thirteen">simple project</mark></h1>
@@ -1427,17 +1431,25 @@
 <img src="images/setV.PNG"><br>
 <p>typ lo 3ayz t3ml t3del 3la goz2 mn el inputs m4 kolhom est5dm <mark>patchValue</mark></p>
 <img src="images/patch.PNG"><br>
+<p>msal tany 3la patchvalue mnsm74 le el user yktp 7rof</p>
+<img src="images/patchh.PNG" alt=""> <br>
 <p><mark>FormBuilder</mark></p>
 <p>fe syntax ashl shoia le el ReactiveForms esmha FormBuilder</p>
 <p>pt3mlha inject fe el constructor we zi el sora kda shla</p>
 <p>we pt3ml el validation 3ady lastName:["",validators.any]</p>
 <img src="images/bui.PNG"><br>
 <p>t2dr t3rd el status pta3et el form fe html {{formName.status}}</p>
-
-
-
-
-
+<p><mark>custome validation</mark></p>
+<p>
+  el custome validation pykon 3para 3n function t2dr t7ot el function de fe nfs file el ts ao fe file monfsl we t3mlo import
+</p>
+<p>dh shkl el function pyglha parameter mn no3 AbstractControl el no3 dh ly py7toy 3la formcontrol we formgroup we hakaza ptptdy t3ml validation we t2olo fe 7alet kaza return el error el error pykon 3la  shkl object key we value lo mfesh mshakel return null  </p>
+<img src="images/valid1.PNG" ><br>
+<img src="images/valid2.PNG"><br>
+<img src="images/valid3.PNG"><br>
+<p>typ dlo2ty lo enta 3ayz tp3t value mn el input le function el validation m4 hynf3 mopashrtan fe file el validation pt3ml function kpera tst2pl el parameter we el function el kpera de be treturn function el validation we el function el kpera lo 3ayz t7dd no3 el return pta3ha hykon zi el sora </p>
+<img src="images/valid4.PNG" ><br>
+<img src="images/valid5.PNG"><br>
 
 
 
@@ -1467,7 +1479,7 @@
                   el function ly ptktpha momkn t7d7 gmpha eh ly ht3mlo return we lo 3mlt return le 7aga mo5tlfa trg3
                   error <br>
                   <img src="images/Capture17.PNG"><br>
-                  <h1><mark id="api">api</mark></h1>
+                  <h1><mark id="api">Http</mark></h1>
                   et3lmna ezai n3rd mlf json be el ajax 3ayzen n3rdo be angular <br>
                   lazem t3mlo import fe mlf app.module >>><br>
                   <mark style="font-size: 45px"> import {HttpClientModule} from "@angular/common/http";</mark><br> we
@@ -1495,6 +1507,12 @@
                   .subscribe(e => {console.log(e)}) e dh parameter t2dr tsmeh ai 7aga shael mlf el json kolo<br>
                   <mark>api methods</mark>
                   <p><mark>get</mark> p3rd beha data gaia mn el api</p>
+                  <p><mark>api options(params , headers)</mark></p>
+                  <p>we ana p3ml get lo 3ayz ap3t parameter 3a4an ygbly data bona2an 3la el paraeter dh</p>
+                  <img src="images/getParamas.PNG"  alt=""> <br>
+                  <p>we momken we enta ptst5dm  method get tp3t header m3 el request el header dh momken ykon token mslan fe 3mlet el auth</p>
+                  <img src="images/getHeader.PNG"  alt=""> <br>
+                  <p>kol el methods ly gaia t2dr tp3t m3aha options parameters we header</p>
                   <p><mark>put , post , patch</mark></p>
                   <p>dol tlt toro2 le adafet odata le el api</p>
                   <p><mark>put:</mark> pt7zf data ly mogoda we tdef el data ly enta p3tha</p>
@@ -1505,16 +1523,26 @@
                   <p>function(){this._HttpClient.anyMethod("ApiURL",{el object ly enta htdefo})}</p>
                   <p>el sentacs pta3et delete ptkon kda </p>
                   <p>function(){this._HttpClient.delete("ApiURL")}</p>
+                  <p><mark>ErrorHandling</mark></p>
+                  <p>pt3ml service 5asa be el error 3la mdar el system goa el service ht3ml function pta5od parameter mn no3 <mark>HttpErrorResponse</mark> we t3ml if else ht2olo lo el error mn no3 <mark>ErrorEvent</mark> ht3ml kaza we lo l2 ht3ml kaza we fe el a5r ht throw error</p>
+                  <p>we tege fe el service ly pt3ml httpRequest tptdy t catch el error zi el sora yb2a kda m3 kol request lo 7sl error hthndlo</p>
+                  <img src="images/errorHandling.PNG"  alt=""> <br>
+                  <img src="images/errorHand.PNG"  alt=""> <br>
                   <h1 id="interc"><mark>interceptors</mark></h1>
                   <p>tany parameter fe function el get t2dr tp3t ai 7aga fe el header pta3 el api be el shkl dh </p>
                   <img src="images/header.PNG"><br>
                   <p>tp lo kol shoia ht3ml requist le el server we kol mra htp3t 7aga fe el header m4 htkrr el 3mlia de kol mra 3a4an kda e5tr3o 7aga esmha <mark>interceptors</mark> ptsa3dk en kol ma y7sl request t3ml fe el api ly enta 3ayzo zi mslan tp3t 7aga fe el header don el 7aga le tkrar ersal 7aga fe el header jol shoia</p>
                   <p>ht3ml el interceptor kda <mark>ng g interceptor anyName</mark> we hykon dh shklha </p>
                   <img src="images/interceptor.PNG"><br>
-                  <p>zi mnta shaef fe method el method de ly ptp3t ai 7aga m3 el request zi 7aga fe el header mslan</p>
+                  <p>lo htp3t 7aga m3 el request yb2a htp3to apl el <mark>next.handle</mark> lkn lo hthndl el error ly rage3 mn el request pn3mlo p3d el <mark>next.handle</mark> 3a4an ykon el request etp3t 5las</p>
+                  <p>zi mnta shaef fe method (intercept) el method de ly ptp3t ai 7aga m3 el request zi 7aga fe el header mslan</p>
                   <p>fe etnen parameter el awl hoa el tlp ly enta htp3to le el server we el tany el tlp p3d ma tdef el adfat pta3tk</p>
-                  <p>awel param lazm takhod mno noskha 3a4an t2dr tp3t ai 7aga fe el api ptakhod noskha be method clone p3d kda tstkhdm el parameter el tany be method handle 3a4an tp3t el adfat de</p>
+                  <p>awel param lazm takhod mno noskha 3a4an hoa read only 3a4an t2dr tp3t ai 7aga fe el api ptakhod noskha be method clone p3d kda tstkhdm el parameter el tany be method handle 3a4an tp3t el adfat de</p>
                   <img src="images/next.PNG"><br>
+                  <p>we dh msal lo 3ayez tp3t token fe el header</p>
+                  <img src="images/setHeader.PNG"><br>
+                  <p>we dh msla 3la el error interceptor we tp3an pyt3ml p3d el handle 3a4an el error pykon rage3 p3d ma ap3t el request</p>
+                  <img src="images/errinter.PNG"><br>
                  <p>type t5ly el interceptor y4t8l ezi ? fe app module fe array providers pt3ml el object dh awel property ly hia provide we tany property ly hia useClass dol m3nahom lma y7sl request le el api est5dm el interceptor de</p>
                  <img src="images/provi.PNG"><br>
 
@@ -2078,9 +2106,113 @@
   </div>
   <h1 id="rxjs"><mark>RXJS</mark></h1>
   <p>el function Synchronous y3ny lazm el aola t5ls 3a4an el tania tpd2 el observable asynchronous y3ny 8er motzamen</p>
-<div>
 
-</div>
+
+  <h1 id="master">KMR CS Master</h1>
+<p>pytklm 3n c++ we n 4o8lna kolo mn el cmd we hypd2 ytklm 3n shoyet <mark>comands</mark></p>
+<p>py2olk dlo2ty enta fate7 el cmd we wa2ef 3nd msar mo3yn we 3ayz t8er el msar pykon 3n tre2 <mark>cd folderName</mark> cd m3naha change directory ps lazem esm el folder ykon mogod fe el mkan ly enta wa2ef feh tp t3rf kol el foldrat fe el mkan ly enta wa2ef feh ezay ? dos  <mark>dir</mark> hygplk kol el foldrat el mogoda</p>
+<p>3ayz trg3 5twa le wra <mark>cd ..</mark> lo ktpt awel 7rfen mslan mn esm el folder we dost tap hykmlk esm el folder</p>
+<p>lo 3ayz t3ml folder gded <mark>mkdir folderName</mark> y3ny make directory esm el folder mynf34 be msafat lo 3ayz msafat aktpo fe string " "</p>
+<p>3ayz t3ml file cpp pt2olo <mark>type NUL > folderName.cpp</mark> type y3ny htktp eh fe el file fa ana ktpt null y3ny m4 hktp 7aga p3d kda esm el file ly htn42o</p>
+<p>dh el structure el asasy pta3 el cpp </p>
+<img src="images/cppstr.PNG" alt=""> <br>
+<p>hnpd2 be el function ly esmha main de ly pybd2 mnha el brnamg pta3k lma ptrn el code pybd2 ynfz mn awel str fe function el main</p>
+<p>el msafat m4 ptfr2 fe ktapet code cpp</p>
+<p>be el monaspa cout de y3ny atp3 kaza we hytp3o fe el cmd </p>
+<p>be el nspa le el str dh <mark>#include < iostream ></mark> y3ny a3ml import le el file ly esmo iostream by5leny a2dr ast5dm functions zi cout mslan</p>
+<p>be el nspa le elstr pta3 <mark>using namespace std;</mark> dlo2ty function el cout 3la spel el msal momken nfs el asm dh ytkrr fe mlf tany fa hyzhrlk errors fa enta pt2olo ana asdy 3la cout ly fe mlf el std m4 ai mlf tany</p>
+<p>ezay p2a te run el file htktp <mark>g++ folderName</mark> hyzhrlk file esmo <mark>a.exe</mark> tdos esm el file p3d kda enter kda enta 3mlt run <mark>a enter</mark></p>
+<p>lo 3ayz t8yr esm el file dh <mark>a.exe</mark> htktp <mark>g++ folderName -o anyNameUWant</mark></p>
+<p><mark>variables</mark> mkan fe el zakera pdelo esm we a5zn feh data</p>
+<p><mark>datatypes</mark></p>
+<p>awel no3 el numbers el numbers fe cpp ce mnha s7e7 we fe mnha ksor</p>
+<p>hytlkm el awel 3n el s7e7 el s7e7 leh aktr mn shkl lma tegy t3rf variable kol shkl py5tlf 7sp el 7gm we el range y3ny kol shkl pykon leh 7gm mo3yn we range mo3yn</p>
+<p>awel shkl esmo <mark>byte</mark> we dh el range pta3o mn 0 le 255 fe kman <mark>int</mark> we fe <mark>long</mark> we dh d3f el int</p>
+<p>el arkam no3en <mark>signed</mark> yu3ny be eshara mogba ao salba ao <mark>unsigned</mark> we de mogba ps</p>
+<p>t2dr t5zn kyma signed ao unsigned el signed el range pta3ha a2l l2n el eshara pta5od mkan fe el zakera </p>
+<p>lo enta m7ddt4 by default hy3tprha signed l2no my3rf4 hia mogb wla salep</p>
+<p>hnst5dm el int 3ltol el range pta3ha kafy lo 3ayz t2ll el range apl klmet int 7ot short 3ayz tzod apl klmet int 7ot long long</p>
+<p>kwa3ed tsmet el variables mynf34 klma m7goza mynf34 3lama 5asa el el dollar sign we el under score ,ynf34 ybd2 be rkm lo variable mn klmten yofdl yb2a camelCase ao tfsl ben kol klme be underScore mn el clean code en esm el variable yo3pr 3n mo7twah</p>
+<p>example <mark>int age = 20</mark></p>
+<p>t2dr t8er esm folder <mark>a</mark> we t3ml run fe str wahed kda <mark>g++ hello.cpp -o hello && hello</mark></p>
+<p>ezai tt3amel m3 el nsos fe cpp lo 7rf wa7ed lazem ykon fe single qoute m4 double we yt5zn fe klmet char <mark>char x = 'a'</mark></p>
+<p>p3d kda el boolean ptakhod true ao false we pt3rfha kda <mark>bool isX = true</mark> el true htp3lk 1 we el false 0 t2dr mkan klmet true ao false tktp 0 ao 1 ao ai rkm el 0 zero hy3rpro false we ai rkm tany hy3tpro true </p>
+<p>type lo enta 3ayz ttp3 true ao false m4 0 we 1 <mark>cout << boolalpha << isX</mark></p>
+<p>el comments single line // multi lines /* */</p>
+<p>lo 3ayz a5od mn el user data pst5dm <mark>cin</mark> </p>
+<p>example <mark>int x = 0 ;cin >> x; cout << "enter a number; ";cout x</mark></p>
+<p><mark>operators</mark> 3mliat 7sapia</p>
+<p>example <mark>int x = 7;cout << " x + 3 = " << (x+3);</mark></p>
+<p><mark>comparison operators</mark> el mokarna pen 7agten</p>
+<p>example <mark>int x = 7;cout << " x > 3 = " << boolalpha << (x>3);</mark></p>
+<p><mark>logical operator</mark> && || !</p>
+<p><mark>el arkam el 8er s7e7a</mark> pn3rfha be <mark>float</mark></p>
+<p>el <mark>if else</mark> nfs javascript</p>
+<p><mark>if (4>5) cout << "any";</mark></p>
+<p>eh el fr2 ben if if else we if if if el fr2 enk lo ktpt if if else lo el 4rt et722 m4 hypos 3la pa2y el if else lkn el if if if mlhom4 3laka bb3d</p>
+<p>lo el if condition str wahed m4 lazem carly brases</p>
+<p>el for loop nfs js </p>
+<p><mark>for (int i = 0;i < 10;i++) cout << i</mark></p>
+<p>while loop nfs el js est5dmha lo m4 3aref 3dd el tkrarat</p>
+<p>do while nfs js we nfs el while ps el do while btnfz el 4rt mra wahda 3la el a2l</p>
+<p>el functions nfs syntax function el main lo ktpt el function pta3tk p3d function el main we estd3etha fe functione el main hyzhrlk error y2olk ana m3rf4 el function de 3ndk 7l mn el etnen y2ma t7ot el function pta3tk apl function el main y2ma tspha p3dha 3ady lkn pt3ml 7aga esmha prototype apl function el main 3a4an myzhrlksh error</p>
+<img src="images/cppfun.PNG" alt=""> <br>
+<p>t2dr tmrr parameters 3ady ps lazem tktp el arguments fe el prototype momken fe el protype tktp int,int ps</p>
+<img src="images/cpppfun.PNG" alt=""> <br>
+<p>el int ly apl esm el function dh no3 el retuen pta3 el function</p>
+<p>t2dr t3ml return 3+4 </p>
+<p>lo 3ayz function m4 pt3ml return l7aga yb2a t5ly no3ha void klmet void apl esm el function</p>
+<p>scope</p>
+<p>lo variable fe function kda hoa m4 mt4af 8er fe el function de y2ma t5leh global 3a4an yt4af fe ai 7ta</p>
+<p>el variable block fe ai block of code function for if</p>
+<p>el block of code el child y2dr y4of ly fe el parent el parent my2dr4 y4of el child</p>
+<p>el array fe cpp lazem t7dd el length pta30 p3d kda tmla el array item item we pt7dd prdo htmla el array data type eh we momken mt7dd4 3dd el items 3ady</p>
+<p><mark>int x[5]; x[0]=1;........</mark></p>
+<p>el string 3a4an tktp string pykon 3opara 3n array og chra <mark>char x[] = "jdf"</mark>
+momken t7dd 3dd el 7rocf ao mt7dd4 el modo3 e5tyary 
+</p>
+<p>cpp by default pt7ot fe a5r el string 7aga tdol 3la nhaet el string y3ny lo el string pta3k el 3dd pta3o arp3a hoa kda m4 arp3a hoa kda 5msa </p>
+<p>momken kman tktp el string kda ps lazem fe el a5r \0 <mark>char x[] = {'h','s','\0'};</mark></p>
+<p>t2dr takhod mn el user string ps talma hta5od mn el user yb2a lazem t7dd length we lo el user ktp length zyada m4 hy3ml moshkla</p>
+<p><mark> char x[6];cin >> x;cout << x;</mark></p>
+<p>t2dr kman t3rf string 3n tre2 klmet <mark>string</mark> we tgep el length 3n tre2 <mark>.length() </mark> ps lazem t3mlha inclue <mark>#include <string></string></mark></p>
+<p><mark>type of programming languages</mark></p>
+<p>el no3 el awel <mark>compiled languages</mark> zi <mark>c , c++</mark></p>
+<p>we dh pyt3mlo compile we el nateg el nha2y pykon file.exe el no3 dh mn el lo8at leh myza we 3ep el meza eno pytnfz mopa4rtan fe el processor fa pykon sre3 lkn el 3ep n file el exe m4 py4t8l 3la kol an0a3 el operating system momken y4t8l 3la windows we my4t8l4 3la linux we hakaza</p>
+<p>3a4an kda b2a fe etgah le el cross platform ly hia lo8a t4t8l 3la ai operating system</p>
+<p>we de esmha <mark>interpeted languages </mark> ao <mark>scripting languages</mark> zi <mark>java , python , javascript</mark></p>
+
+<h1><mark>data structure & algorithms</mark></h1>
+<p>algorithms:</p>
+<p>5twat mntkia le 7l moshkla</p>
+<p>data structure:</p>
+<p>el tre2a ly b5zn beha el data fe el memory apst anoa3o hoa el array el array mt5zn gmp p3d fe el memory bshkl monzm</p>
+
+<p>alogorithm analysis:</p>
+<p>ai code ptktpo pysthlk w2t 3n tre2 el (cpu) we pysthlk memory</p>
+<p>type lo 3ndy code hyakhod w2t kper lkn hyofr fe el memory we code hya5od memory kter lkn hyofr fe el w2t aktp men fehom ?</p>
+<p>2alk 7sp el mwkf y3ny mslan lo mobile yb2a el memory m7doda fa htra3y el memory we tsthlk w2t lkn lo computer htsthlk memory we tofr w2t 3a4an 3ndk memory kpera</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <script>
      document.body.onscroll = function() {
@@ -2097,6 +2229,6 @@ let up = document.getElementById("up")
   </script>
 
   <script src="index.js"></script>
-</body>
+</body> -->
 
-</html>
+</html> 
